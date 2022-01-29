@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1.main_page {
+    font-variant: small-caps;
+}
+
+.notable_classes_table td {
+    width:auto;
+    height: 50px; 
+}
+
+.notable_classes_table{
+    margin-left:50px;
+}
+
+.main_table {
+    width: 100%;
+    padding: 0px;
+    border-style: none;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.references {
+    font-size: 20px
+}
+
+.picture_cell {
+    width: 200px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.picture {
+  border: 0px;
+  height: 300px;
+  width: auto;
+}
+
+.bouncer_picture {
+    border: black 1px;
+    height: 100px;
+    width: auto;
+    vertical-align: middle;
+  }
+
+.info_cell {
+    width:100%;
+    vertical-align: text-top;
+    padding: 0 0 0 20px;
+    text-align: left;
+}
+
+.contact_info {
+    font-weight: bold;
+}
+
+:visited, :link {
+  text-decoration: none;
+}
+
+
+
+

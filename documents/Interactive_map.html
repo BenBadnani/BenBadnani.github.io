@@ -1,0 +1,3013 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7050bfa93c0e4af486fbfafd934c4051 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7050bfa93c0e4af486fbfafd934c4051" ></div>
+        
+</body>
+<script>    
+    
+            var map_7050bfa93c0e4af486fbfafd934c4051 = L.map(
+                "map_7050bfa93c0e4af486fbfafd934c4051",
+                {
+                    center: [42.4072, -71.3824],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8.3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1285f2e28c704f3c87f42c156c772ab4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var marker_1afbe5703cc94a3aa388db06c0a2704b = L.marker(
+                [42.631912, -71.296025],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_a5f7128814994bbf84ff1a501f78c9db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1afbe5703cc94a3aa388db06c0a2704b.setIcon(icon_a5f7128814994bbf84ff1a501f78c9db);
+        
+    
+        var popup_a358326110664ff4b2eff5476f990c40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_404662f8af244eafa3d03d6c0629bdb1 = $(`<div id="html_404662f8af244eafa3d03d6c0629bdb1" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6726546906187625, black: 0.03592814371257485, asian: 0.11776447105788423, native american 0.0, zip code: 01852, median income 17358</div>`)[0];
+            popup_a358326110664ff4b2eff5476f990c40.setContent(html_404662f8af244eafa3d03d6c0629bdb1);
+        
+
+        marker_1afbe5703cc94a3aa388db06c0a2704b.bindPopup(popup_a358326110664ff4b2eff5476f990c40)
+        ;
+
+        
+    
+    
+            var marker_2b57cd9336fc4229a971727af3ea3767 = L.marker(
+                [42.285114, -71.829987],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_6121c3b738e14ca2ae14d27004fff674 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b57cd9336fc4229a971727af3ea3767.setIcon(icon_6121c3b738e14ca2ae14d27004fff674);
+        
+    
+        var popup_f436832548be4811a2cd311f83a8bb2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64ff698a37b64c73b4e21445ff3b9a26 = $(`<div id="html_64ff698a37b64c73b4e21445ff3b9a26" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5826271186440678, black: 0.2733050847457627, asian: 0.0, native american 0.0, zip code: 01609, median income 12841</div>`)[0];
+            popup_f436832548be4811a2cd311f83a8bb2d.setContent(html_64ff698a37b64c73b4e21445ff3b9a26);
+        
+
+        marker_2b57cd9336fc4229a971727af3ea3767.bindPopup(popup_f436832548be4811a2cd311f83a8bb2d)
+        ;
+
+        
+    
+    
+            var marker_139ff452529b4628aa1276122a22a6a5 = L.marker(
+                [42.712015, -71.164873],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_c1ff5ce56a664bd6988960c3f02298c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_139ff452529b4628aa1276122a22a6a5.setIcon(icon_c1ff5ce56a664bd6988960c3f02298c1);
+        
+    
+        var popup_0b767f71ed3d450e942906400bb494b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_47588b88067140e8a61a008c0363a7d0 = $(`<div id="html_47588b88067140e8a61a008c0363a7d0" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6746794871794872, black: 0.04246794871794872, asian: 0.0, native american 0.0, zip code: 01841, median income 15481</div>`)[0];
+            popup_0b767f71ed3d450e942906400bb494b6.setContent(html_47588b88067140e8a61a008c0363a7d0);
+        
+
+        marker_139ff452529b4628aa1276122a22a6a5.bindPopup(popup_0b767f71ed3d450e942906400bb494b6)
+        ;
+
+        
+    
+    
+            var marker_39cecf3dc07349ed9fbdcdd3212312b7 = L.marker(
+                [42.324029, -71.085017],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_6a545a8100c842d2ac337134406c116c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_39cecf3dc07349ed9fbdcdd3212312b7.setIcon(icon_6a545a8100c842d2ac337134406c116c);
+        
+    
+        var popup_c4ce4bdc517249c6818ceb09832bb3d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33a371c53606423b960086f60fdf37d9 = $(`<div id="html_33a371c53606423b960086f60fdf37d9" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.18004866180048662, black: 0.6447688564476886, asian: 0.0, native american 0.014598540145985401, zip code: 02119, median income 9185</div>`)[0];
+            popup_c4ce4bdc517249c6818ceb09832bb3d9.setContent(html_33a371c53606423b960086f60fdf37d9);
+        
+
+        marker_39cecf3dc07349ed9fbdcdd3212312b7.bindPopup(popup_c4ce4bdc517249c6818ceb09832bb3d9)
+        ;
+
+        
+    
+    
+            var marker_a85283d8feb54f22a26a533e5d3595d5 = L.marker(
+                [42.243826, -71.843569],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_dc9b508bed14441bb3d072b6e90cca2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a85283d8feb54f22a26a533e5d3595d5.setIcon(icon_dc9b508bed14441bb3d072b6e90cca2b);
+        
+    
+        var popup_9f4a125236184a1cafe92d4fb9f1ad8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83af34579e5d459ca032135a67ad5b59 = $(`<div id="html_83af34579e5d459ca032135a67ad5b59" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7311752287121746, black: 0.08726249120337791, asian: 0.08796622097114708, native american 0.025334271639690358, zip code: 01603, median income 15262</div>`)[0];
+            popup_9f4a125236184a1cafe92d4fb9f1ad8b.setContent(html_83af34579e5d459ca032135a67ad5b59);
+        
+
+        marker_a85283d8feb54f22a26a533e5d3595d5.bindPopup(popup_9f4a125236184a1cafe92d4fb9f1ad8b)
+        ;
+
+        
+    
+    
+            var marker_a77b875dac614a6db2d17f3629bbf41b = L.marker(
+                [42.134009, -72.565378],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_9aa73991227c493d9b53af4049a2acc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a77b875dac614a6db2d17f3629bbf41b.setIcon(icon_9aa73991227c493d9b53af4049a2acc7);
+        
+    
+        var popup_2b76f2aefd414341b91d2b26b902afe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c6d7bf1f2df452f8121dec3e34da6b4 = $(`<div id="html_1c6d7bf1f2df452f8121dec3e34da6b4" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8199827734711456, black: 0.14556416881998277, asian: 0.0, native american 0.0, zip code: 01104, median income 14167</div>`)[0];
+            popup_2b76f2aefd414341b91d2b26b902afe8.setContent(html_1c6d7bf1f2df452f8121dec3e34da6b4);
+        
+
+        marker_a77b875dac614a6db2d17f3629bbf41b.bindPopup(popup_2b76f2aefd414341b91d2b26b902afe8)
+        ;
+
+        
+    
+    
+            var marker_fa0683abde0646ff8a3426b231eb6994 = L.marker(
+                [42.649481, -71.348229],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_d1b3220269cd407a85b8b446aba9fa1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_fa0683abde0646ff8a3426b231eb6994.setIcon(icon_d1b3220269cd407a85b8b446aba9fa1b);
+        
+    
+        var popup_eee9fcc686f44168835789672876d853 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42cd82e44eb94f0297730c5bf5a2c449 = $(`<div id="html_42cd82e44eb94f0297730c5bf5a2c449" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6758711374095989, black: 0.036817882971729124, asian: 0.11965811965811966, native american 0.0, zip code: 01854, median income 12058</div>`)[0];
+            popup_eee9fcc686f44168835789672876d853.setContent(html_42cd82e44eb94f0297730c5bf5a2c449);
+        
+
+        marker_fa0683abde0646ff8a3426b231eb6994.bindPopup(popup_eee9fcc686f44168835789672876d853)
+        ;
+
+        
+    
+    
+            var marker_5dd181bb349b4ec982bcb36e4876a8be = L.marker(
+                [41.683936, -71.1775],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_6903f31077d84cea86553713800f5c8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5dd181bb349b4ec982bcb36e4876a8be.setIcon(icon_6903f31077d84cea86553713800f5c8a);
+        
+    
+        var popup_8bff94c2d67f43c9893eb4c40be27752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f3a74954e3442cf87f6b908ccff1191 = $(`<div id="html_2f3a74954e3442cf87f6b908ccff1191" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8540305010893247, black: 0.08932461873638345, asian: 0.0, native american 0.0, zip code: 02724, median income 19640</div>`)[0];
+            popup_8bff94c2d67f43c9893eb4c40be27752.setContent(html_2f3a74954e3442cf87f6b908ccff1191);
+        
+
+        marker_5dd181bb349b4ec982bcb36e4876a8be.bindPopup(popup_8bff94c2d67f43c9893eb4c40be27752)
+        ;
+
+        
+    
+    
+            var marker_70e4a7b92e414625840e07c3dfd468e4 = L.marker(
+                [42.211656, -72.642448],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_83d9336888504c76aa2342f49a42f358 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_70e4a7b92e414625840e07c3dfd468e4.setIcon(icon_83d9336888504c76aa2342f49a42f358);
+        
+    
+        var popup_0707099006924c399eab2067b31abf83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_321a2d5eaaf6438095f81d47b66d2c93 = $(`<div id="html_321a2d5eaaf6438095f81d47b66d2c93" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7845433255269321, black: 0.0, asian: 0.0, native american 0.0, zip code: 01040, median income 38750</div>`)[0];
+            popup_0707099006924c399eab2067b31abf83.setContent(html_321a2d5eaaf6438095f81d47b66d2c93);
+        
+
+        marker_70e4a7b92e414625840e07c3dfd468e4.bindPopup(popup_0707099006924c399eab2067b31abf83)
+        ;
+
+        
+    
+    
+            var marker_5048eb703c844e64ae80db88141b5874 = L.marker(
+                [42.211656, -72.642448],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_8d6add8165a547699ad5d226c53b6b1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_5048eb703c844e64ae80db88141b5874.setIcon(icon_8d6add8165a547699ad5d226c53b6b1e);
+        
+    
+        var popup_5ac03ccba5ec4508bb8be7af44c79d19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e28b8ec124844db58a7065eeb5b8098d = $(`<div id="html_e28b8ec124844db58a7065eeb5b8098d" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8899707887049659, black: 0.035053554040895815, asian: 0.0, native american 0.0, zip code: 01040, median income 13998</div>`)[0];
+            popup_5ac03ccba5ec4508bb8be7af44c79d19.setContent(html_e28b8ec124844db58a7065eeb5b8098d);
+        
+
+        marker_5048eb703c844e64ae80db88141b5874.bindPopup(popup_5ac03ccba5ec4508bb8be7af44c79d19)
+        ;
+
+        
+    
+    
+            var marker_963c79f2925b450b8f6baa797a6dc2ba = L.marker(
+                [42.698526, -73.0843],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_cd749b1c61504befa79523c51842fa19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_963c79f2925b450b8f6baa797a6dc2ba.setIcon(icon_cd749b1c61504befa79523c51842fa19);
+        
+    
+        var popup_775b237da94a4351bd285b3c0911c192 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba4fa23d16b140f08144169c3d9e3dda = $(`<div id="html_ba4fa23d16b140f08144169c3d9e3dda" style="width: 100.0%; height: 100.0%;">Demographics: white: 1.0, black: 0.0, asian: 0.0, native american 0.0, zip code: 01247, median income 22885</div>`)[0];
+            popup_775b237da94a4351bd285b3c0911c192.setContent(html_ba4fa23d16b140f08144169c3d9e3dda);
+        
+
+        marker_963c79f2925b450b8f6baa797a6dc2ba.bindPopup(popup_775b237da94a4351bd285b3c0911c192)
+        ;
+
+        
+    
+    
+            var marker_e34684645a4649fea9f6279a3571a424 = L.marker(
+                [42.471039, -70.941535],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_810058e758734392bf518ffa26ed52b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e34684645a4649fea9f6279a3571a424.setIcon(icon_810058e758734392bf518ffa26ed52b2);
+        
+    
+        var popup_900c9a60047d405caf32e873e436b0e8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_973c945013484080ba46f5a8d5fb4893 = $(`<div id="html_973c945013484080ba46f5a8d5fb4893" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.783180026281209, black: 0.17082785808147175, asian: 0.0, native american 0.02890932982917214, zip code: 01902, median income 11174</div>`)[0];
+            popup_900c9a60047d405caf32e873e436b0e8.setContent(html_973c945013484080ba46f5a8d5fb4893);
+        
+
+        marker_e34684645a4649fea9f6279a3571a424.bindPopup(popup_900c9a60047d405caf32e873e436b0e8)
+        ;
+
+        
+    
+    
+            var marker_1a011d557cf54cc5825f450a69f70f5c = L.marker(
+                [41.637485, -70.938265],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_6e90ad0358a340e6811afd0b58ac6614 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a011d557cf54cc5825f450a69f70f5c.setIcon(icon_6e90ad0358a340e6811afd0b58ac6614);
+        
+    
+        var popup_25951c17be5641f0847ee734d216e3c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b9b6df90cbe4d13b254367454021486 = $(`<div id="html_7b9b6df90cbe4d13b254367454021486" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.3028322440087146, black: 0.08061002178649238, asian: 0.0, native american 0.0, zip code: 02740, median income 17426</div>`)[0];
+            popup_25951c17be5641f0847ee734d216e3c4.setContent(html_7b9b6df90cbe4d13b254367454021486);
+        
+
+        marker_1a011d557cf54cc5825f450a69f70f5c.bindPopup(popup_25951c17be5641f0847ee734d216e3c4)
+        ;
+
+        
+    
+    
+            var marker_dd84ba361ac647778b2a0d93398b2233 = L.marker(
+                [41.675125, -71.148281],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_03637c02e3524eeeac323cd103f866fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd84ba361ac647778b2a0d93398b2233.setIcon(icon_03637c02e3524eeeac323cd103f866fe);
+        
+    
+        var popup_6e4979777201430ab7c80390813e3b12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_929f4d24bddb4e9b9982d35e905371ee = $(`<div id="html_929f4d24bddb4e9b9982d35e905371ee" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8420168067226891, black: 0.12773109243697478, asian: 0.0, native american 0.0, zip code: 02721, median income 27063</div>`)[0];
+            popup_6e4979777201430ab7c80390813e3b12.setContent(html_929f4d24bddb4e9b9982d35e905371ee);
+        
+
+        marker_dd84ba361ac647778b2a0d93398b2233.bindPopup(popup_6e4979777201430ab7c80390813e3b12)
+        ;
+
+        
+    
+    
+            var marker_76268b90a1214c1c9baae4341305ba17 = L.marker(
+                [42.679723, -71.30068],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_569da46d92094df59a5e768a5350f89b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_76268b90a1214c1c9baae4341305ba17.setIcon(icon_569da46d92094df59a5e768a5350f89b);
+        
+    
+        var popup_2e487029b2d347cd874f6219355c188a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d122a1ef5407463d845d117ba5445269 = $(`<div id="html_d122a1ef5407463d845d117ba5445269" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6272, black: 0.1664, asian: 0.1632, native american 0.0, zip code: 01826, median income 37447</div>`)[0];
+            popup_2e487029b2d347cd874f6219355c188a.setContent(html_d122a1ef5407463d845d117ba5445269);
+        
+
+        marker_76268b90a1214c1c9baae4341305ba17.bindPopup(popup_2e487029b2d347cd874f6219355c188a)
+        ;
+
+        
+    
+    
+            var marker_30a1de66da364499ab7b676db946688e = L.marker(
+                [42.255083, -71.12922],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_bcacff392ce0439993b459a1708fa656 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_30a1de66da364499ab7b676db946688e.setIcon(icon_bcacff392ce0439993b459a1708fa656);
+        
+    
+        var popup_13c07297fe72435ca8b0610cd69fef2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2e1f2685dde4ef887651a665dfdeb2d = $(`<div id="html_f2e1f2685dde4ef887651a665dfdeb2d" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.1705790297339593, black: 0.7511737089201878, asian: 0.0, native american 0.0406885758998435, zip code: 02136, median income NaN</div>`)[0];
+            popup_13c07297fe72435ca8b0610cd69fef2d.setContent(html_f2e1f2685dde4ef887651a665dfdeb2d);
+        
+
+        marker_30a1de66da364499ab7b676db946688e.bindPopup(popup_13c07297fe72435ca8b0610cd69fef2d)
+        ;
+
+        
+    
+    
+            var marker_75a8ab62b8084032bd3f27508cc3ad4c = L.marker(
+                [42.324029, -71.085017],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_d878c0a98e904162ae2d699c3e4fe24c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_75a8ab62b8084032bd3f27508cc3ad4c.setIcon(icon_d878c0a98e904162ae2d699c3e4fe24c);
+        
+    
+        var popup_30757e10388643688d11a403e77ee942 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bd5d5e677aa4e3b8f84a4912c1a75b9 = $(`<div id="html_0bd5d5e677aa4e3b8f84a4912c1a75b9" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.28105906313645623, black: 0.2973523421588595, asian: 0.01697216564833673, native american 0.0, zip code: 02119, median income 17391</div>`)[0];
+            popup_30757e10388643688d11a403e77ee942.setContent(html_0bd5d5e677aa4e3b8f84a4912c1a75b9);
+        
+
+        marker_75a8ab62b8084032bd3f27508cc3ad4c.bindPopup(popup_30757e10388643688d11a403e77ee942)
+        ;
+
+        
+    
+    
+            var marker_d49a611ee8414495b13a9526ddbda2a2 = L.marker(
+                [42.080692, -72.560791],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_ef6eb52df30144239a9fec34fb67f6af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d49a611ee8414495b13a9526ddbda2a2.setIcon(icon_ef6eb52df30144239a9fec34fb67f6af);
+        
+    
+        var popup_d68a4dea99b74cd285b2c858912c4cc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2e2e29e55c94810a1f8132ec54d2bd9 = $(`<div id="html_a2e2e29e55c94810a1f8132ec54d2bd9" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.879045996592845, black: 0.0817717206132879, asian: 0.0, native american 0.0, zip code: 01108, median income NaN</div>`)[0];
+            popup_d68a4dea99b74cd285b2c858912c4cc2.setContent(html_a2e2e29e55c94810a1f8132ec54d2bd9);
+        
+
+        marker_d49a611ee8414495b13a9526ddbda2a2.bindPopup(popup_d68a4dea99b74cd285b2c858912c4cc2)
+        ;
+
+        
+    
+    
+            var marker_83219acbe138409bb61799b0f7b471ae = L.marker(
+                [41.72505, -71.121329],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_a67245700e9143c98324f43fc9f30806 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_83219acbe138409bb61799b0f7b471ae.setIcon(icon_a67245700e9143c98324f43fc9f30806);
+        
+    
+        var popup_16c6e00bdebe4008a965770ec94ecdaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b334a6a4daf4583b389f196bb6fe39a = $(`<div id="html_1b334a6a4daf4583b389f196bb6fe39a" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7101313320825516, black: 0.01876172607879925, asian: 0.0, native american 0.0, zip code: 02720, median income 38814</div>`)[0];
+            popup_16c6e00bdebe4008a965770ec94ecdaa.setContent(html_1b334a6a4daf4583b389f196bb6fe39a);
+        
+
+        marker_83219acbe138409bb61799b0f7b471ae.bindPopup(popup_16c6e00bdebe4008a965770ec94ecdaa)
+        ;
+
+        
+    
+    
+            var marker_83eb3b043cca418c8382c045cc692d00 = L.marker(
+                [41.683936, -71.1775],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_b12f0019aab34686ac6ee7f14194f292 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83eb3b043cca418c8382c045cc692d00.setIcon(icon_b12f0019aab34686ac6ee7f14194f292);
+        
+    
+        var popup_d063ed6744df4d8d81013d9849843f24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd6dbb3f2b4748ae9c8b3b47445c00bd = $(`<div id="html_cd6dbb3f2b4748ae9c8b3b47445c00bd" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8871391076115486, black: 0.07349081364829396, asian: 0.0, native american 0.0, zip code: 02724, median income 40804</div>`)[0];
+            popup_d063ed6744df4d8d81013d9849843f24.setContent(html_cd6dbb3f2b4748ae9c8b3b47445c00bd);
+        
+
+        marker_83eb3b043cca418c8382c045cc692d00.bindPopup(popup_d063ed6744df4d8d81013d9849843f24)
+        ;
+
+        
+    
+    
+            var marker_21381bf8f9d947c9a0dbbce4686c4bf1 = L.marker(
+                [42.631912, -71.296025],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_5fb889cf7fb1405ead97c5f54e620c32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_21381bf8f9d947c9a0dbbce4686c4bf1.setIcon(icon_5fb889cf7fb1405ead97c5f54e620c32);
+        
+    
+        var popup_3c2bb46dd5af46f68d498563d4b9fb22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9e430f2116244f396de62fe14fc8f43 = $(`<div id="html_d9e430f2116244f396de62fe14fc8f43" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6068759342301944, black: 0.06427503736920777, asian: 0.19730941704035873, native american 0.021674140508221227, zip code: 01852, median income 15250</div>`)[0];
+            popup_3c2bb46dd5af46f68d498563d4b9fb22.setContent(html_d9e430f2116244f396de62fe14fc8f43);
+        
+
+        marker_21381bf8f9d947c9a0dbbce4686c4bf1.bindPopup(popup_3c2bb46dd5af46f68d498563d4b9fb22)
+        ;
+
+        
+    
+    
+            var marker_0a5013666cf145f19d562d2071a19873 = L.marker(
+                [41.606252, -70.913632],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_20a4cb4a4e4d498bb3dee67221de31e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0a5013666cf145f19d562d2071a19873.setIcon(icon_20a4cb4a4e4d498bb3dee67221de31e7);
+        
+    
+        var popup_172a419556eb415c80f38fd352491bf9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_916b3f04f19c4af79bea9b459191930e = $(`<div id="html_916b3f04f19c4af79bea9b459191930e" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6753445635528331, black: 0.06125574272588055, asian: 0.0, native american 0.0, zip code: 02744, median income 17000</div>`)[0];
+            popup_172a419556eb415c80f38fd352491bf9.setContent(html_916b3f04f19c4af79bea9b459191930e);
+        
+
+        marker_0a5013666cf145f19d562d2071a19873.bindPopup(popup_172a419556eb415c80f38fd352491bf9)
+        ;
+
+        
+    
+    
+            var marker_0cb8298c13d047d9b7e73a7bbc58b749 = L.marker(
+                [41.637485, -70.938265],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_484b5714c234449abbd016a7807fe910 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0cb8298c13d047d9b7e73a7bbc58b749.setIcon(icon_484b5714c234449abbd016a7807fe910);
+        
+    
+        var popup_b0b181e776ca46829840e43f2a232ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b0ead6d9c1d4bbea56844bca195a279 = $(`<div id="html_9b0ead6d9c1d4bbea56844bca195a279" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6245059288537549, black: 0.05928853754940711, asian: 0.0, native american 0.0, zip code: 02740, median income 16458</div>`)[0];
+            popup_b0b181e776ca46829840e43f2a232ef8.setContent(html_9b0ead6d9c1d4bbea56844bca195a279);
+        
+
+        marker_0cb8298c13d047d9b7e73a7bbc58b749.bindPopup(popup_b0b181e776ca46829840e43f2a232ef8)
+        ;
+
+        
+    
+    
+            var marker_e5cb847173e347e09a5b92a00e014f67 = L.marker(
+                [41.690243, -70.616283],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_9fcb3aee09dc4c0fbebaf29f81a09243 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e5cb847173e347e09a5b92a00e014f67.setIcon(icon_9fcb3aee09dc4c0fbebaf29f81a09243);
+        
+    
+        var popup_5b37a2fcf22840a9bbe76f88dff22450 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abe868dfc2e143d98a530a6d64779a2b = $(`<div id="html_abe868dfc2e143d98a530a6d64779a2b" style="width: 100.0%; height: 100.0%;">Demographics: white: 1.0, black: 0.0, asian: 0.0, native american 0.0, zip code: 02559, median income 31059</div>`)[0];
+            popup_5b37a2fcf22840a9bbe76f88dff22450.setContent(html_abe868dfc2e143d98a530a6d64779a2b);
+        
+
+        marker_e5cb847173e347e09a5b92a00e014f67.bindPopup(popup_5b37a2fcf22840a9bbe76f88dff22450)
+        ;
+
+        
+    
+    
+            var marker_f2b95f87e5804e31af9f867da5055ebf = L.marker(
+                [42.241557, -71.082432],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_e29f21335bf84a1a9076cd4c1e382fc8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2b95f87e5804e31af9f867da5055ebf.setIcon(icon_e29f21335bf84a1a9076cd4c1e382fc8);
+        
+    
+        var popup_b7c0129a434d47e7862dad62582de305 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39298b3ca191401fa958130174fb002e = $(`<div id="html_39298b3ca191401fa958130174fb002e" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5112881806108898, black: 0.45152722443559096, asian: 0.0, native american 0.0, zip code: 02186, median income 23301</div>`)[0];
+            popup_b7c0129a434d47e7862dad62582de305.setContent(html_39298b3ca191401fa958130174fb002e);
+        
+
+        marker_f2b95f87e5804e31af9f867da5055ebf.bindPopup(popup_b7c0129a434d47e7862dad62582de305)
+        ;
+
+        
+    
+    
+            var marker_9fa17be514da4042833de3e4923c1afd = L.marker(
+                [42.471039, -70.941535],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_9212bf11c66a44949c748c5044def4d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9fa17be514da4042833de3e4923c1afd.setIcon(icon_9212bf11c66a44949c748c5044def4d4);
+        
+    
+        var popup_c66fe7b860674324a28fb875bf6b3e40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5a78398532a4b6a92b6e8e942e4769e = $(`<div id="html_e5a78398532a4b6a92b6e8e942e4769e" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6398348813209495, black: 0.32610939112487103, asian: 0.0, native american 0.0, zip code: 01902, median income 10083</div>`)[0];
+            popup_c66fe7b860674324a28fb875bf6b3e40.setContent(html_e5a78398532a4b6a92b6e8e942e4769e);
+        
+
+        marker_9fa17be514da4042833de3e4923c1afd.bindPopup(popup_c66fe7b860674324a28fb875bf6b3e40)
+        ;
+
+        
+    
+    
+            var marker_509c4d3b96d64a6ba05dbfb1d33ac2b4 = L.marker(
+                [42.099958, -72.580765],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_d22d8683d6e6450fafb04e69246b4aa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_509c4d3b96d64a6ba05dbfb1d33ac2b4.setIcon(icon_d22d8683d6e6450fafb04e69246b4aa3);
+        
+    
+        var popup_d14beccd486249849c295e5716474028 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5100c82a140f4e5dbfd85e24da7a3591 = $(`<div id="html_5100c82a140f4e5dbfd85e24da7a3591" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7922374429223744, black: 0.0821917808219178, asian: 0.0, native american 0.0, zip code: 01105, median income 13250</div>`)[0];
+            popup_d14beccd486249849c295e5716474028.setContent(html_5100c82a140f4e5dbfd85e24da7a3591);
+        
+
+        marker_509c4d3b96d64a6ba05dbfb1d33ac2b4.bindPopup(popup_d14beccd486249849c295e5716474028)
+        ;
+
+        
+    
+    
+            var marker_d34e4c2dd77f4ba28b7bdfb11f2fb739 = L.marker(
+                [41.660995, -70.940137],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_2e8be4d874f8494686f4b57318f408fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d34e4c2dd77f4ba28b7bdfb11f2fb739.setIcon(icon_2e8be4d874f8494686f4b57318f408fa);
+        
+    
+        var popup_0cf79e0f70794f9e87f3990a383d1be1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_888c921cd25b4a54a96ad61203e0a6b5 = $(`<div id="html_888c921cd25b4a54a96ad61203e0a6b5" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.610969387755102, black: 0.0663265306122449, asian: 0.0, native american 0.0, zip code: 02746, median income 14057</div>`)[0];
+            popup_0cf79e0f70794f9e87f3990a383d1be1.setContent(html_888c921cd25b4a54a96ad61203e0a6b5);
+        
+
+        marker_d34e4c2dd77f4ba28b7bdfb11f2fb739.bindPopup(popup_0cf79e0f70794f9e87f3990a383d1be1)
+        ;
+
+        
+    
+    
+            var marker_38ddccbf767344b687d0076ca532ae2e = L.marker(
+                [42.119674, -72.549726],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_714f29d5f9564eeab4eb9cea06edc045 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_38ddccbf767344b687d0076ca532ae2e.setIcon(icon_714f29d5f9564eeab4eb9cea06edc045);
+        
+    
+        var popup_72902556fcf942ed9ffa934eb15d19ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05c3bf64a53f4f878abad92e6c1d0876 = $(`<div id="html_05c3bf64a53f4f878abad92e6c1d0876" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5231053604436229, black: 0.4066543438077634, asian: 0.0, native american 0.0, zip code: 01109, median income 35938</div>`)[0];
+            popup_72902556fcf942ed9ffa934eb15d19ee.setContent(html_05c3bf64a53f4f878abad92e6c1d0876);
+        
+
+        marker_38ddccbf767344b687d0076ca532ae2e.bindPopup(popup_72902556fcf942ed9ffa934eb15d19ee)
+        ;
+
+        
+    
+    
+            var marker_065468c82da64b689582623adac79021 = L.marker(
+                [42.078371, -71.042304],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_4fee6435791c4178b7dfb2ac4569e6f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_065468c82da64b689582623adac79021.setIcon(icon_4fee6435791c4178b7dfb2ac4569e6f7);
+        
+    
+        var popup_426adc25206244109a43ee5ef4ae0107 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e7920e5f4cf4d03b4b03f13b80fdd56 = $(`<div id="html_9e7920e5f4cf4d03b4b03f13b80fdd56" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.28290993071593534, black: 0.7170900692840647, asian: 0.0, native american 0.0, zip code: 02301, median income NaN</div>`)[0];
+            popup_426adc25206244109a43ee5ef4ae0107.setContent(html_9e7920e5f4cf4d03b4b03f13b80fdd56);
+        
+
+        marker_065468c82da64b689582623adac79021.bindPopup(popup_426adc25206244109a43ee5ef4ae0107)
+        ;
+
+        
+    
+    
+            var marker_b874f08a5104482090b91ae9dccd65e4 = L.marker(
+                [42.088907, -70.998375],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_d42e2586bbc04da09811816ce6cdc19a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b874f08a5104482090b91ae9dccd65e4.setIcon(icon_d42e2586bbc04da09811816ce6cdc19a);
+        
+    
+        var popup_93fa4e4162ef4077aa585d7081f858e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92b86138292449089a2d3572af87a489 = $(`<div id="html_92b86138292449089a2d3572af87a489" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.4064711830131446, black: 0.3710819009100101, asian: 0.0, native american 0.0, zip code: 02302, median income 15962</div>`)[0];
+            popup_93fa4e4162ef4077aa585d7081f858e2.setContent(html_92b86138292449089a2d3572af87a489);
+        
+
+        marker_b874f08a5104482090b91ae9dccd65e4.bindPopup(popup_93fa4e4162ef4077aa585d7081f858e2)
+        ;
+
+        
+    
+    
+            var marker_e1c0ed2c23ee43b882369f3e0c2ef1d2 = L.marker(
+                [42.078371, -71.042304],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_fb906d3661ad41b09df955d815382aec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e1c0ed2c23ee43b882369f3e0c2ef1d2.setIcon(icon_fb906d3661ad41b09df955d815382aec);
+        
+    
+        var popup_3008aebfe8544aeea05cba1c232b0a58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2da058fe177f4f5e97b5bba5c26765a3 = $(`<div id="html_2da058fe177f4f5e97b5bba5c26765a3" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5751911639762107, black: 0.37892948173322005, asian: 0.0, native american 0.014443500424808835, zip code: 02301, median income 27996</div>`)[0];
+            popup_3008aebfe8544aeea05cba1c232b0a58.setContent(html_2da058fe177f4f5e97b5bba5c26765a3);
+        
+
+        marker_e1c0ed2c23ee43b882369f3e0c2ef1d2.bindPopup(popup_3008aebfe8544aeea05cba1c232b0a58)
+        ;
+
+        
+    
+    
+            var marker_ab8be9596fda4f7f8afa1389d168a15f = L.marker(
+                [42.448236, -73.273727],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_e7bcb07d2cd649de8706ddb3883f69ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ab8be9596fda4f7f8afa1389d168a15f.setIcon(icon_e7bcb07d2cd649de8706ddb3883f69ea);
+        
+    
+        var popup_ddffb6ce805647c09d61e718c9602f49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cabf364d48548a3bd1bc6f4079a18de = $(`<div id="html_2cabf364d48548a3bd1bc6f4079a18de" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8924528301886793, black: 0.017924528301886792, asian: 0.013207547169811321, native american 0.0, zip code: 01201, median income 16742</div>`)[0];
+            popup_ddffb6ce805647c09d61e718c9602f49.setContent(html_2cabf364d48548a3bd1bc6f4079a18de);
+        
+
+        marker_ab8be9596fda4f7f8afa1389d168a15f.bindPopup(popup_ddffb6ce805647c09d61e718c9602f49)
+        ;
+
+        
+    
+    
+            var marker_228b07db50b648798bbc3a7104810039 = L.marker(
+                [41.675125, -71.148281],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_6ecfdcff97d24d2d91d0462aade33428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_228b07db50b648798bbc3a7104810039.setIcon(icon_6ecfdcff97d24d2d91d0462aade33428);
+        
+    
+        var popup_aef844281eb447e8a449cd9021256d6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6871f5a94649454eadcc2e84c8231c30 = $(`<div id="html_6871f5a94649454eadcc2e84c8231c30" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7822838847385272, black: 0.09925293489861259, asian: 0.010672358591248666, native american 0.0, zip code: 02721, median income 20339</div>`)[0];
+            popup_aef844281eb447e8a449cd9021256d6d.setContent(html_6871f5a94649454eadcc2e84c8231c30);
+        
+
+        marker_228b07db50b648798bbc3a7104810039.bindPopup(popup_aef844281eb447e8a449cd9021256d6d)
+        ;
+
+        
+    
+    
+            var marker_6ba3f572477f44e7905e9988d142e669 = L.marker(
+                [41.707699, -70.15856],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_504be0a87cbd42d1838cd638f78c4930 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6ba3f572477f44e7905e9988d142e669.setIcon(icon_504be0a87cbd42d1838cd638f78c4930);
+        
+    
+        var popup_f01cca7f136e4456be851766787cc5df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ba189042c5349b5a393d02e4a31659e = $(`<div id="html_3ba189042c5349b5a393d02e4a31659e" style="width: 100.0%; height: 100.0%;">Demographics: white: 1.0, black: 0.0, asian: 0.0, native american 0.0, zip code: 02660, median income NaN</div>`)[0];
+            popup_f01cca7f136e4456be851766787cc5df.setContent(html_3ba189042c5349b5a393d02e4a31659e);
+        
+
+        marker_6ba3f572477f44e7905e9988d142e669.bindPopup(popup_f01cca7f136e4456be851766787cc5df)
+        ;
+
+        
+    
+    
+            var marker_fd2a01152fee41f19ab6f15d6f9df4b7 = L.marker(
+                [42.337582, -71.070482],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_2485ec06729345419ec1b9956c1c6176 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fd2a01152fee41f19ab6f15d6f9df4b7.setIcon(icon_2485ec06729345419ec1b9956c1c6176);
+        
+    
+        var popup_7eb3369ffcec499cba71720e14e78caa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d30454c4872481c9b86491b0ed62727 = $(`<div id="html_6d30454c4872481c9b86491b0ed62727" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.10186757215619695, black: 0.10526315789473684, asian: 0.5500848896434635, native american 0.050933786078098474, zip code: 02118, median income 15286</div>`)[0];
+            popup_7eb3369ffcec499cba71720e14e78caa.setContent(html_6d30454c4872481c9b86491b0ed62727);
+        
+
+        marker_fd2a01152fee41f19ab6f15d6f9df4b7.bindPopup(popup_7eb3369ffcec499cba71720e14e78caa)
+        ;
+
+        
+    
+    
+            var marker_9a3c80b175014644ad0cd7bfa0626192 = L.marker(
+                [42.078371, -71.042304],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_347d84cc93d645c0ad814ae4e0c6721d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9a3c80b175014644ad0cd7bfa0626192.setIcon(icon_347d84cc93d645c0ad814ae4e0c6721d);
+        
+    
+        var popup_2686ed9cb2814f69b2303d9b32b01bcd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c283ce162c574c28bfbdd27e51a7d135 = $(`<div id="html_c283ce162c574c28bfbdd27e51a7d135" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.22711142654364797, black: 0.5940383250532293, asian: 0.0, native american 0.0, zip code: 02301, median income 25692</div>`)[0];
+            popup_2686ed9cb2814f69b2303d9b32b01bcd.setContent(html_c283ce162c574c28bfbdd27e51a7d135);
+        
+
+        marker_9a3c80b175014644ad0cd7bfa0626192.bindPopup(popup_2686ed9cb2814f69b2303d9b32b01bcd)
+        ;
+
+        
+    
+    
+            var marker_3f6b7fd4e3154b73b726bf024fac3b15 = L.marker(
+                [41.637485, -70.938265],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_05971f154043468a902f2768a358c031 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f6b7fd4e3154b73b726bf024fac3b15.setIcon(icon_05971f154043468a902f2768a358c031);
+        
+    
+        var popup_67b592a4a7814b6cb8e37190f2c4b168 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a684466c00b048c0b09b30dd319ac9ae = $(`<div id="html_a684466c00b048c0b09b30dd319ac9ae" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6127208480565371, black: 0.03745583038869258, asian: 0.1667844522968198, native american 0.0, zip code: 02740, median income 13159</div>`)[0];
+            popup_67b592a4a7814b6cb8e37190f2c4b168.setContent(html_a684466c00b048c0b09b30dd319ac9ae);
+        
+
+        marker_3f6b7fd4e3154b73b726bf024fac3b15.bindPopup(popup_67b592a4a7814b6cb8e37190f2c4b168)
+        ;
+
+        
+    
+    
+            var marker_afebb77f66754646b3578d81a2f0b217 = L.marker(
+                [42.080692, -72.560791],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_4d5c24d5f6c043509489215253b901dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_afebb77f66754646b3578d81a2f0b217.setIcon(icon_4d5c24d5f6c043509489215253b901dc);
+        
+    
+        var popup_ec9ae1471c4f416eb9911b44a311e5fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c77334a9b5a0492eb2cc492e3238cea2 = $(`<div id="html_c77334a9b5a0492eb2cc492e3238cea2" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6728624535315985, black: 0.011152416356877323, asian: 0.13382899628252787, native american 0.0, zip code: 01108, median income NaN</div>`)[0];
+            popup_ec9ae1471c4f416eb9911b44a311e5fa.setContent(html_c77334a9b5a0492eb2cc492e3238cea2);
+        
+
+        marker_afebb77f66754646b3578d81a2f0b217.bindPopup(popup_ec9ae1471c4f416eb9911b44a311e5fa)
+        ;
+
+        
+    
+    
+            var marker_c9f895e9cd0546c39fefa21d77f661e3 = L.marker(
+                [42.266415, -71.015576],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_7bee0d2c554f4a7186726d2b225bd4ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c9f895e9cd0546c39fefa21d77f661e3.setIcon(icon_7bee0d2c554f4a7186726d2b225bd4ea);
+        
+    
+        var popup_9ede470d36b54b25b19622819ce06bb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_926f660578944338a0d36077e7241028 = $(`<div id="html_926f660578944338a0d36077e7241028" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8372093023255814, black: 0.03171247357293869, asian: 0.13107822410147993, native american 0.0, zip code: 02170, median income 71477</div>`)[0];
+            popup_9ede470d36b54b25b19622819ce06bb8.setContent(html_926f660578944338a0d36077e7241028);
+        
+
+        marker_c9f895e9cd0546c39fefa21d77f661e3.bindPopup(popup_9ede470d36b54b25b19622819ce06bb8)
+        ;
+
+        
+    
+    
+            var marker_ea8d8ae8758a41959b81bff9c9465be1 = L.marker(
+                [42.285805, -71.070571],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_be7fd843d1b64351a068b1e8edc02da5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ea8d8ae8758a41959b81bff9c9465be1.setIcon(icon_be7fd843d1b64351a068b1e8edc02da5);
+        
+    
+        var popup_9c6d94023aa74f258b7164edaf0e2acc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0cb11bb69204a8f9c21a456a1d45e1a = $(`<div id="html_f0cb11bb69204a8f9c21a456a1d45e1a" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.40618101545253865, black: 0.37527593818984545, asian: 0.01545253863134658, native american 0.0, zip code: 02124, median income 38523</div>`)[0];
+            popup_9c6d94023aa74f258b7164edaf0e2acc.setContent(html_f0cb11bb69204a8f9c21a456a1d45e1a);
+        
+
+        marker_ea8d8ae8758a41959b81bff9c9465be1.bindPopup(popup_9c6d94023aa74f258b7164edaf0e2acc)
+        ;
+
+        
+    
+    
+            var marker_08abba1910db4d359a213f6068c6c406 = L.marker(
+                [42.673909, -71.091334],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_a3404fe2c7c545f78d26cbb228d3b819 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_08abba1910db4d359a213f6068c6c406.setIcon(icon_a3404fe2c7c545f78d26cbb228d3b819);
+        
+    
+        var popup_f9d6be2519df4a87a310e2d32245c5ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66245c3cff2149e7b0600c23ce2ac772 = $(`<div id="html_66245c3cff2149e7b0600c23ce2ac772" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.9000916590284143, black: 0.012832263978001834, asian: 0.05316223648029331, native american 0.0, zip code: 01845, median income NaN</div>`)[0];
+            popup_f9d6be2519df4a87a310e2d32245c5ec.setContent(html_66245c3cff2149e7b0600c23ce2ac772);
+        
+
+        marker_08abba1910db4d359a213f6068c6c406.bindPopup(popup_f9d6be2519df4a87a310e2d32245c5ec)
+        ;
+
+        
+    
+    
+            var marker_1e4534715d124dfc818dac353bd8fe04 = L.marker(
+                [42.324029, -71.085017],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_3e341c8c46a747dd92a2c8b11881f575 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e4534715d124dfc818dac353bd8fe04.setIcon(icon_3e341c8c46a747dd92a2c8b11881f575);
+        
+    
+        var popup_9ae4629e7b224560be8243b263bbb0fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_276cfbd9170f488d8b0756de6f86dc47 = $(`<div id="html_276cfbd9170f488d8b0756de6f86dc47" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.05362462760675273, black: 0.7825223435948362, asian: 0.013902681231380337, native american 0.0, zip code: 02119, median income 35850</div>`)[0];
+            popup_9ae4629e7b224560be8243b263bbb0fb.setContent(html_276cfbd9170f488d8b0756de6f86dc47);
+        
+
+        marker_1e4534715d124dfc818dac353bd8fe04.bindPopup(popup_9ae4629e7b224560be8243b263bbb0fb)
+        ;
+
+        
+    
+    
+            var marker_dce24ac78cd645c391688f845aac784d = L.marker(
+                [42.468432, -71.013946],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_83197a153e7f483b8711f0ac67d22453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dce24ac78cd645c391688f845aac784d.setIcon(icon_83197a153e7f483b8711f0ac67d22453);
+        
+    
+        var popup_a3ca0852263146eaaeafbad30583d7b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55e6a726c57c4def9c3165b562aabb02 = $(`<div id="html_55e6a726c57c4def9c3165b562aabb02" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8835705045278137, black: 0.04592496765847348, asian: 0.05304010349288486, native american 0.0, zip code: 01906, median income 37237</div>`)[0];
+            popup_a3ca0852263146eaaeafbad30583d7b5.setContent(html_55e6a726c57c4def9c3165b562aabb02);
+        
+
+        marker_dce24ac78cd645c391688f845aac784d.bindPopup(popup_a3ca0852263146eaaeafbad30583d7b5)
+        ;
+
+        
+    
+    
+            var marker_3a0b9ce97b3145d4854a6da45680eed9 = L.marker(
+                [42.306267, -71.085897],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_b8706feabf76407a96a75ae4d6ce8c44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_3a0b9ce97b3145d4854a6da45680eed9.setIcon(icon_b8706feabf76407a96a75ae4d6ce8c44);
+        
+    
+        var popup_77c3b161c0fe482a9b6fed918e0e91a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6729bd03e5f34e92ae24b6669381100d = $(`<div id="html_6729bd03e5f34e92ae24b6669381100d" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.072522159548751, black: 0.5866236905721193, asian: 0.0, native american 0.0, zip code: 02121, median income 22109</div>`)[0];
+            popup_77c3b161c0fe482a9b6fed918e0e91a6.setContent(html_6729bd03e5f34e92ae24b6669381100d);
+        
+
+        marker_3a0b9ce97b3145d4854a6da45680eed9.bindPopup(popup_77c3b161c0fe482a9b6fed918e0e91a6)
+        ;
+
+        
+    
+    
+            var marker_8f6e20ad5874473d824277a9a925b6dc = L.marker(
+                [42.706763, -71.160403],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_42d209dbd0be40bea9b6cf8eae1d1cd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8f6e20ad5874473d824277a9a925b6dc.setIcon(icon_42d209dbd0be40bea9b6cf8eae1d1cd2);
+        
+    
+        var popup_39451636d901443ea497c483cc4d6572 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3de696c91cb4864a53a474423e869c1 = $(`<div id="html_f3de696c91cb4864a53a474423e869c1" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.4967230079337703, black: 0.061400482925146604, asian: 0.0, native american 0.005864091065884788, zip code: 01840, median income 22682</div>`)[0];
+            popup_39451636d901443ea497c483cc4d6572.setContent(html_f3de696c91cb4864a53a474423e869c1);
+        
+
+        marker_8f6e20ad5874473d824277a9a925b6dc.bindPopup(popup_39451636d901443ea497c483cc4d6572)
+        ;
+
+        
+    
+    
+            var marker_e3b145b8044e4739a2fd544a38a620a4 = L.marker(
+                [42.15186, -72.509131],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_cad35b0b49ba4d1a856d86bc3e41ae04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e3b145b8044e4739a2fd544a38a620a4.setIcon(icon_cad35b0b49ba4d1a856d86bc3e41ae04);
+        
+    
+        var popup_daeff40a5d9e4df782aba5a2fe0f1ec9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a29e77e2694e42f29f4820f232139dc4 = $(`<div id="html_a29e77e2694e42f29f4820f232139dc4" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6592775041050903, black: 0.2914614121510673, asian: 0.0, native american 0.0, zip code: 01151, median income 25446</div>`)[0];
+            popup_daeff40a5d9e4df782aba5a2fe0f1ec9.setContent(html_a29e77e2694e42f29f4820f232139dc4);
+        
+
+        marker_e3b145b8044e4739a2fd544a38a620a4.bindPopup(popup_daeff40a5d9e4df782aba5a2fe0f1ec9)
+        ;
+
+        
+    
+    
+            var marker_89800dec68074cdda481f53633510bef = L.marker(
+                [42.211656, -72.642448],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_8ac2dee1248c4c43873463ff29534c48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_89800dec68074cdda481f53633510bef.setIcon(icon_8ac2dee1248c4c43873463ff29534c48);
+        
+    
+        var popup_c780ae8f97e343b3abacdbc8b62ea496 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29b51d8c4cd34bc88abe191e8ed2b7d0 = $(`<div id="html_29b51d8c4cd34bc88abe191e8ed2b7d0" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.9711359404096834, black: 0.01303538175046555, asian: 0.0, native american 0.0, zip code: 01040, median income 20000</div>`)[0];
+            popup_c780ae8f97e343b3abacdbc8b62ea496.setContent(html_29b51d8c4cd34bc88abe191e8ed2b7d0);
+        
+
+        marker_89800dec68074cdda481f53633510bef.bindPopup(popup_c780ae8f97e343b3abacdbc8b62ea496)
+        ;
+
+        
+    
+    
+            var marker_33d82968083944ae923af0e2ffcae0fa = L.marker(
+                [41.692705, -71.129726],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_f0371d5de7ae4e66a510978c9aca590f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_33d82968083944ae923af0e2ffcae0fa.setIcon(icon_f0371d5de7ae4e66a510978c9aca590f);
+        
+    
+        var popup_c7a4c0e70ded42bba8e3526a026017cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c63a2b8c38804054b371895196b68216 = $(`<div id="html_c63a2b8c38804054b371895196b68216" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6436314363143631, black: 0.35636856368563685, asian: 0.0, native american 0.0, zip code: 02723, median income NaN</div>`)[0];
+            popup_c7a4c0e70ded42bba8e3526a026017cf.setContent(html_c63a2b8c38804054b371895196b68216);
+        
+
+        marker_33d82968083944ae923af0e2ffcae0fa.bindPopup(popup_c7a4c0e70ded42bba8e3526a026017cf)
+        ;
+
+        
+    
+    
+            var marker_dd01a42f3f8446bb95c38d6505abf453 = L.marker(
+                [42.247049, -71.808366],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_fd9ef25806004e628bdd61651d86a101 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dd01a42f3f8446bb95c38d6505abf453.setIcon(icon_fd9ef25806004e628bdd61651d86a101);
+        
+    
+        var popup_92547ec649f3481caa41a46551d963e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ba894f6fdb94a5e8d8c3ba30495798e = $(`<div id="html_3ba894f6fdb94a5e8d8c3ba30495798e" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7789203084832905, black: 0.12467866323907455, asian: 0.0, native american 0.021850899742930592, zip code: 01610, median income 14588</div>`)[0];
+            popup_92547ec649f3481caa41a46551d963e9.setContent(html_3ba894f6fdb94a5e8d8c3ba30495798e);
+        
+
+        marker_dd01a42f3f8446bb95c38d6505abf453.bindPopup(popup_92547ec649f3481caa41a46551d963e9)
+        ;
+
+        
+    
+    
+            var marker_a9edb656422a416fbfbc76d6fab31f63 = L.marker(
+                [42.247049, -71.808366],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_700d11abb7b848e0855f6b11460a5040 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a9edb656422a416fbfbc76d6fab31f63.setIcon(icon_700d11abb7b848e0855f6b11460a5040);
+        
+    
+        var popup_07fd343cfbca4c4c8eb00852a50f5550 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_497aae2977064febbe533991041b77f4 = $(`<div id="html_497aae2977064febbe533991041b77f4" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.552, black: 0.33066666666666666, asian: 0.0, native american 0.0, zip code: 01610, median income 29125</div>`)[0];
+            popup_07fd343cfbca4c4c8eb00852a50f5550.setContent(html_497aae2977064febbe533991041b77f4);
+        
+
+        marker_a9edb656422a416fbfbc76d6fab31f63.bindPopup(popup_07fd343cfbca4c4c8eb00852a50f5550)
+        ;
+
+        
+    
+    
+            var marker_7f4f938a4d8742b6b132f36e55bb205b = L.marker(
+                [42.291413, -71.042158],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_441a5cc116a64c7bb42a075454604825 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f4f938a4d8742b6b132f36e55bb205b.setIcon(icon_441a5cc116a64c7bb42a075454604825);
+        
+    
+        var popup_ad14bc58180742b49e493fff2d14a4be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7faec1c9435040ada3fd75b200b0f1e4 = $(`<div id="html_7faec1c9435040ada3fd75b200b0f1e4" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.3541666666666667, black: 0.041666666666666664, asian: 0.6041666666666666, native american 0.0, zip code: 02122, median income 18542</div>`)[0];
+            popup_ad14bc58180742b49e493fff2d14a4be.setContent(html_7faec1c9435040ada3fd75b200b0f1e4);
+        
+
+        marker_7f4f938a4d8742b6b132f36e55bb205b.bindPopup(popup_ad14bc58180742b49e493fff2d14a4be)
+        ;
+
+        
+    
+    
+            var marker_9467191e82a248c1aa77f26483555154 = L.marker(
+                [41.692705, -71.129726],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_6add1aeb78394d9e96664352a34cee5c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9467191e82a248c1aa77f26483555154.setIcon(icon_6add1aeb78394d9e96664352a34cee5c);
+        
+    
+        var popup_7139638a262049d89a87ed141531d197 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe38844ca6a9481a986a77403404e45a = $(`<div id="html_fe38844ca6a9481a986a77403404e45a" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6655701754385965, black: 0.013157894736842105, asian: 0.05701754385964912, native american 0.0, zip code: 02723, median income 25828</div>`)[0];
+            popup_7139638a262049d89a87ed141531d197.setContent(html_fe38844ca6a9481a986a77403404e45a);
+        
+
+        marker_9467191e82a248c1aa77f26483555154.bindPopup(popup_7139638a262049d89a87ed141531d197)
+        ;
+
+        
+    
+    
+            var marker_7884173be08042d0944e062ad61950e6 = L.marker(
+                [41.573881, -70.632049],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_b5f7f18c9d73405981c1a2f9b9761dab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7884173be08042d0944e062ad61950e6.setIcon(icon_b5f7f18c9d73405981c1a2f9b9761dab);
+        
+    
+        var popup_be3e46c86ecb42a7b970e9fe2b59cdf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13679314b4a147c2b2ba46dbb9a018af = $(`<div id="html_13679314b4a147c2b2ba46dbb9a018af" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.9310624493106245, black: 0.012976480129764802, asian: 0.009732360097323601, native american 0.008110300081103, zip code: 02540, median income 28669</div>`)[0];
+            popup_be3e46c86ecb42a7b970e9fe2b59cdf6.setContent(html_13679314b4a147c2b2ba46dbb9a018af);
+        
+
+        marker_7884173be08042d0944e062ad61950e6.bindPopup(popup_be3e46c86ecb42a7b970e9fe2b59cdf6)
+        ;
+
+        
+    
+    
+            var marker_0941c58034bb453facfcd08daf1f6212 = L.marker(
+                [42.253254, -71.767957],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_b85fcccf96654ee6847bc6da9cd82134 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0941c58034bb453facfcd08daf1f6212.setIcon(icon_b85fcccf96654ee6847bc6da9cd82134);
+        
+    
+        var popup_0f97b60ed932419ab6f9e578ed3657ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f782be3b50e84861997af9b60a5b326f = $(`<div id="html_f782be3b50e84861997af9b60a5b326f" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8296382730455076, black: 0.0, asian: 0.11085180863477247, native american 0.012835472578763127, zip code: 01604, median income 36250</div>`)[0];
+            popup_0f97b60ed932419ab6f9e578ed3657ae.setContent(html_f782be3b50e84861997af9b60a5b326f);
+        
+
+        marker_0941c58034bb453facfcd08daf1f6212.bindPopup(popup_0f97b60ed932419ab6f9e578ed3657ae)
+        ;
+
+        
+    
+    
+            var marker_34d1bc1a52134429bb4354ee69bdd7f8 = L.marker(
+                [41.882056, -70.63129],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_9a711e8cb73e4037aa30e972ccfe0603 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_34d1bc1a52134429bb4354ee69bdd7f8.setIcon(icon_9a711e8cb73e4037aa30e972ccfe0603);
+        
+    
+        var popup_2a30fa75c9594af5ab0be75218059e86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8041e800a05446a0af53ce42ec0a167e = $(`<div id="html_8041e800a05446a0af53ce42ec0a167e" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.9984894259818731, black: 0.0015105740181268882, asian: 0.0, native american 0.0, zip code: 02360, median income 37829</div>`)[0];
+            popup_2a30fa75c9594af5ab0be75218059e86.setContent(html_8041e800a05446a0af53ce42ec0a167e);
+        
+
+        marker_34d1bc1a52134429bb4354ee69bdd7f8.bindPopup(popup_2a30fa75c9594af5ab0be75218059e86)
+        ;
+
+        
+    
+    
+            var marker_6c453f16f826405db87c47befbc5cda6 = L.marker(
+                [42.656045, -71.303309],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_bb01f357a813466d925fcf3ded54256d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6c453f16f826405db87c47befbc5cda6.setIcon(icon_bb01f357a813466d925fcf3ded54256d);
+        
+    
+        var popup_9b9244634c914e3c9ad12665a189d52a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9e928073fe64e17a91356158a1916e6 = $(`<div id="html_f9e928073fe64e17a91356158a1916e6" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8027777777777778, black: 0.09722222222222222, asian: 0.09907407407407408, native american 0.0, zip code: 01850, median income 26528</div>`)[0];
+            popup_9b9244634c914e3c9ad12665a189d52a.setContent(html_f9e928073fe64e17a91356158a1916e6);
+        
+
+        marker_6c453f16f826405db87c47befbc5cda6.bindPopup(popup_9b9244634c914e3c9ad12665a189d52a)
+        ;
+
+        
+    
+    
+            var marker_c68deb06ac1843998a3b6b8d6148fb49 = L.marker(
+                [42.285114, -71.829987],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_f3a36304b82d436fbc9a2bfe680dcedb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c68deb06ac1843998a3b6b8d6148fb49.setIcon(icon_f3a36304b82d436fbc9a2bfe680dcedb);
+        
+    
+        var popup_807c1164e18b432f98cf2685af64a692 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6fabe4300e4f4b99b25749578bf555ea = $(`<div id="html_6fabe4300e4f4b99b25749578bf555ea" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6635911994322214, black: 0.1653655074520937, asian: 0.0227111426543648, native american 0.0, zip code: 01609, median income 40863</div>`)[0];
+            popup_807c1164e18b432f98cf2685af64a692.setContent(html_6fabe4300e4f4b99b25749578bf555ea);
+        
+
+        marker_c68deb06ac1843998a3b6b8d6148fb49.bindPopup(popup_807c1164e18b432f98cf2685af64a692)
+        ;
+
+        
+    
+    
+            var marker_ea50c3e6be904d008ef97c9227138e23 = L.marker(
+                [42.712015, -71.164873],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_015e8b2d70c14766862104433bbb2df3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ea50c3e6be904d008ef97c9227138e23.setIcon(icon_015e8b2d70c14766862104433bbb2df3);
+        
+    
+        var popup_4519284b1b3f41378536efef13cee68f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6c86984111354e22a352e7b6008845ae = $(`<div id="html_6c86984111354e22a352e7b6008845ae" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.4205729166666667, black: 0.15104166666666666, asian: 0.0, native american 0.0, zip code: 01841, median income 28125</div>`)[0];
+            popup_4519284b1b3f41378536efef13cee68f.setContent(html_6c86984111354e22a352e7b6008845ae);
+        
+
+        marker_ea50c3e6be904d008ef97c9227138e23.bindPopup(popup_4519284b1b3f41378536efef13cee68f)
+        ;
+
+        
+    
+    
+            var marker_cc649bc8eb4a41faa54f3c28193e4fba = L.marker(
+                [42.324029, -71.085017],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_3e38771096ff47d1ac0dffcc813d4d92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cc649bc8eb4a41faa54f3c28193e4fba.setIcon(icon_3e38771096ff47d1ac0dffcc813d4d92);
+        
+    
+        var popup_765cdb4571ed4752b509a65ae9831345 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f0e5d694182460381a97aad943f2bc4 = $(`<div id="html_3f0e5d694182460381a97aad943f2bc4" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.029213483146067417, black: 0.6067415730337079, asian: 0.0, native american 0.0, zip code: 02119, median income 21193</div>`)[0];
+            popup_765cdb4571ed4752b509a65ae9831345.setContent(html_3f0e5d694182460381a97aad943f2bc4);
+        
+
+        marker_cc649bc8eb4a41faa54f3c28193e4fba.bindPopup(popup_765cdb4571ed4752b509a65ae9831345)
+        ;
+
+        
+    
+    
+            var marker_25cf2e10a1314091886b2e197bb4325c = L.marker(
+                [41.660995, -70.940137],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_19618d978ab94915a1bf5c3e69b9ea80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25cf2e10a1314091886b2e197bb4325c.setIcon(icon_19618d978ab94915a1bf5c3e69b9ea80);
+        
+    
+        var popup_31703be730274ec3ac5ad412f76d5e67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fe21ea1e6684fcfbcd41c98fddb8fd6 = $(`<div id="html_4fe21ea1e6684fcfbcd41c98fddb8fd6" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.4506578947368421, black: 0.1825657894736842, asian: 0.0, native american 0.0, zip code: 02746, median income 16733</div>`)[0];
+            popup_31703be730274ec3ac5ad412f76d5e67.setContent(html_4fe21ea1e6684fcfbcd41c98fddb8fd6);
+        
+
+        marker_25cf2e10a1314091886b2e197bb4325c.bindPopup(popup_31703be730274ec3ac5ad412f76d5e67)
+        ;
+
+        
+    
+    
+            var marker_52802ffb006c4cc88585042bcc32968f = L.marker(
+                [41.573881, -70.632049],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_1a39dd0fdbe548b7a6e6522237facc00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_52802ffb006c4cc88585042bcc32968f.setIcon(icon_1a39dd0fdbe548b7a6e6522237facc00);
+        
+    
+        var popup_b855547d8a5b428e9d2fa92e55a2d20b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19c244e5456f4e898fc86c162ec08ae5 = $(`<div id="html_19c244e5456f4e898fc86c162ec08ae5" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8335388409371147, black: 0.007398273736128237, asian: 0.030826140567200986, native american 0.08877928483353884, zip code: 02540, median income 23382</div>`)[0];
+            popup_b855547d8a5b428e9d2fa92e55a2d20b.setContent(html_19c244e5456f4e898fc86c162ec08ae5);
+        
+
+        marker_52802ffb006c4cc88585042bcc32968f.bindPopup(popup_b855547d8a5b428e9d2fa92e55a2d20b)
+        ;
+
+        
+    
+    
+            var marker_dce47d46ba614fa48eb1473dc7add0e3 = L.marker(
+                [42.524435, -70.870859],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_1604591f55bb4135ab6e0f829a606639 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dce47d46ba614fa48eb1473dc7add0e3.setIcon(icon_1604591f55bb4135ab6e0f829a606639);
+        
+    
+        var popup_d3dc9075d7d7434b9d01bd0a7b106cac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45aee26b816d40e0ae45053126e69ab0 = $(`<div id="html_45aee26b816d40e0ae45053126e69ab0" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5883922615076718, black: 0.13075383589059372, asian: 0.06470980653769179, native american 0.0, zip code: 01970, median income 16887</div>`)[0];
+            popup_d3dc9075d7d7434b9d01bd0a7b106cac.setContent(html_45aee26b816d40e0ae45053126e69ab0);
+        
+
+        marker_dce47d46ba614fa48eb1473dc7add0e3.bindPopup(popup_d3dc9075d7d7434b9d01bd0a7b106cac)
+        ;
+
+        
+    
+    
+            var marker_e9ba50a53f384d23ae3f3c1fdef8ae8e = L.marker(
+                [42.134009, -72.565378],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_f04ac057926848abb595af479c754100 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_e9ba50a53f384d23ae3f3c1fdef8ae8e.setIcon(icon_f04ac057926848abb595af479c754100);
+        
+    
+        var popup_7754199a100741cea62695c8fcdf41ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5270c22272154c628cffe409e63cb911 = $(`<div id="html_5270c22272154c628cffe409e63cb911" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8374417055296469, black: 0.1345769487008661, asian: 0.0, native american 0.0, zip code: 01104, median income 18571</div>`)[0];
+            popup_7754199a100741cea62695c8fcdf41ea.setContent(html_5270c22272154c628cffe409e63cb911);
+        
+
+        marker_e9ba50a53f384d23ae3f3c1fdef8ae8e.bindPopup(popup_7754199a100741cea62695c8fcdf41ea)
+        ;
+
+        
+    
+    
+            var marker_4e05d990783540e281cfa59725c6ceec = L.marker(
+                [42.59528, -72.555002],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_0faca03390d14a97bbc84db9d78df9d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e05d990783540e281cfa59725c6ceec.setIcon(icon_0faca03390d14a97bbc84db9d78df9d4);
+        
+    
+        var popup_621a36cacc67497cbabe0189fd8bb0f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7fa684a90ed041b2a539cc4fa62dc032 = $(`<div id="html_7fa684a90ed041b2a539cc4fa62dc032" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.97911227154047, black: 0.0, asian: 0.0, native american 0.0, zip code: 01376, median income 54219</div>`)[0];
+            popup_621a36cacc67497cbabe0189fd8bb0f2.setContent(html_7fa684a90ed041b2a539cc4fa62dc032);
+        
+
+        marker_4e05d990783540e281cfa59725c6ceec.bindPopup(popup_621a36cacc67497cbabe0189fd8bb0f2)
+        ;
+
+        
+    
+    
+            var marker_4cdf7bc6688a475dbdea8f192ee65081 = L.marker(
+                [42.796313, -71.053436],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_39a2e6d208e447b2bb7d1ae40229b092 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_4cdf7bc6688a475dbdea8f192ee65081.setIcon(icon_39a2e6d208e447b2bb7d1ae40229b092);
+        
+    
+        var popup_cef1ca4413284b999c6086142f10f438 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_977dc8108ba0499796064a65fb8e0198 = $(`<div id="html_977dc8108ba0499796064a65fb8e0198" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7927170868347339, black: 0.11064425770308123, asian: 0.022408963585434174, native american 0.0, zip code: 01830, median income NaN</div>`)[0];
+            popup_cef1ca4413284b999c6086142f10f438.setContent(html_977dc8108ba0499796064a65fb8e0198);
+        
+
+        marker_4cdf7bc6688a475dbdea8f192ee65081.bindPopup(popup_cef1ca4413284b999c6086142f10f438)
+        ;
+
+        
+    
+    
+            var marker_90ef77b890894158845a484a5ff4a8c2 = L.marker(
+                [42.253254, -71.767957],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_2980e8a32e35449da81dd5513083bfa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_90ef77b890894158845a484a5ff4a8c2.setIcon(icon_2980e8a32e35449da81dd5513083bfa1);
+        
+    
+        var popup_82e47447cd5d43428fa3d47f78b353f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1661f2f9288d4cba9aa1b777de64c2e2 = $(`<div id="html_1661f2f9288d4cba9aa1b777de64c2e2" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6493582263710619, black: 0.14469078179696615, asian: 0.0705950991831972, native american 0.009334889148191364, zip code: 01604, median income 12277</div>`)[0];
+            popup_82e47447cd5d43428fa3d47f78b353f2.setContent(html_1661f2f9288d4cba9aa1b777de64c2e2);
+        
+
+        marker_90ef77b890894158845a484a5ff4a8c2.bindPopup(popup_82e47447cd5d43428fa3d47f78b353f2)
+        ;
+
+        
+    
+    
+            var marker_9fac81712195423f942a8950e0927fbb = L.marker(
+                [42.627812, -71.33533],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_0065983048ee433886b013c711e87ab6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9fac81712195423f942a8950e0927fbb.setIcon(icon_0065983048ee433886b013c711e87ab6);
+        
+    
+        var popup_2360ee09e6744d938a4358a8978a1288 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa745e0ff6fb4bf785ccc5ee76a2cf9d = $(`<div id="html_aa745e0ff6fb4bf785ccc5ee76a2cf9d" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.43119266055045874, black: 0.021406727828746176, asian: 0.41284403669724773, native american 0.0, zip code: 01851, median income 47782</div>`)[0];
+            popup_2360ee09e6744d938a4358a8978a1288.setContent(html_aa745e0ff6fb4bf785ccc5ee76a2cf9d);
+        
+
+        marker_9fac81712195423f942a8950e0927fbb.bindPopup(popup_2360ee09e6744d938a4358a8978a1288)
+        ;
+
+        
+    
+    
+            var marker_fbea21e9cb2749bfb5d11e5a71c1ff06 = L.marker(
+                [42.099958, -72.580765],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_157bb29784b943d3b78c74f19b89d532 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fbea21e9cb2749bfb5d11e5a71c1ff06.setIcon(icon_157bb29784b943d3b78c74f19b89d532);
+        
+    
+        var popup_3db86543c58743ca805cc776dbb6739b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11b0b04261674ddebc7123d46119d433 = $(`<div id="html_11b0b04261674ddebc7123d46119d433" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.463627546071775, black: 0.2667313288069835, asian: 0.04267701260911736, native american 0.0, zip code: 01105, median income 20200</div>`)[0];
+            popup_3db86543c58743ca805cc776dbb6739b.setContent(html_11b0b04261674ddebc7123d46119d433);
+        
+
+        marker_fbea21e9cb2749bfb5d11e5a71c1ff06.bindPopup(popup_3db86543c58743ca805cc776dbb6739b)
+        ;
+
+        
+    
+    
+            var marker_81cb9f24f8da4f59b9c5904f7e4ba4ff = L.marker(
+                [42.080692, -72.560791],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_f6f727ecc8ed495daad87b72a26d7b9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_81cb9f24f8da4f59b9c5904f7e4ba4ff.setIcon(icon_f6f727ecc8ed495daad87b72a26d7b9b);
+        
+    
+        var popup_907b14074e2b414bacd0d1b3e2a0eb09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2169eda86451428b99bdf84f097ed189 = $(`<div id="html_2169eda86451428b99bdf84f097ed189" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5333827893175074, black: 0.45103857566765576, asian: 0.0, native american 0.0, zip code: 01108, median income 34017</div>`)[0];
+            popup_907b14074e2b414bacd0d1b3e2a0eb09.setContent(html_2169eda86451428b99bdf84f097ed189);
+        
+
+        marker_81cb9f24f8da4f59b9c5904f7e4ba4ff.bindPopup(popup_907b14074e2b414bacd0d1b3e2a0eb09)
+        ;
+
+        
+    
+    
+            var marker_9953293ed8534e06827055e2547c48a0 = L.marker(
+                [42.12106, -72.607068],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_aaa556f9293b43f1a46a8ffeb524d3db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9953293ed8534e06827055e2547c48a0.setIcon(icon_aaa556f9293b43f1a46a8ffeb524d3db);
+        
+    
+        var popup_6896fbad06864187bebd00e92f757e34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce34358eac9a43a098a777811840b2be = $(`<div id="html_ce34358eac9a43a098a777811840b2be" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6867088607594937, black: 0.09071729957805907, asian: 0.0, native american 0.012658227848101266, zip code: 01107, median income 16579</div>`)[0];
+            popup_6896fbad06864187bebd00e92f757e34.setContent(html_ce34358eac9a43a098a777811840b2be);
+        
+
+        marker_9953293ed8534e06827055e2547c48a0.bindPopup(popup_6896fbad06864187bebd00e92f757e34)
+        ;
+
+        
+    
+    
+            var marker_3bbd36d686b84effb63bba35d6011ee6 = L.marker(
+                [42.253254, -71.767957],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_bafc8cc4d5c645d9b46da8c5556004e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3bbd36d686b84effb63bba35d6011ee6.setIcon(icon_bafc8cc4d5c645d9b46da8c5556004e6);
+        
+    
+        var popup_483f649f75754135b45ed08ec044c4a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d96898909c9542ec95f653b5976495da = $(`<div id="html_d96898909c9542ec95f653b5976495da" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5720081135902637, black: 0.09533468559837728, asian: 0.0, native american 0.0, zip code: 01604, median income NaN</div>`)[0];
+            popup_483f649f75754135b45ed08ec044c4a0.setContent(html_d96898909c9542ec95f653b5976495da);
+        
+
+        marker_3bbd36d686b84effb63bba35d6011ee6.bindPopup(popup_483f649f75754135b45ed08ec044c4a0)
+        ;
+
+        
+    
+    
+            var marker_647ae0d48c364a09b76013534c4d0b09 = L.marker(
+                [42.613418, -72.426427],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_56879cbb5e424a5184e23fe50dc8486a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_647ae0d48c364a09b76013534c4d0b09.setIcon(icon_56879cbb5e424a5184e23fe50dc8486a);
+        
+    
+        var popup_50723ad3572f4636bb16fa07e51e7fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11700faecbbd41c8a17bfc6ae700de2a = $(`<div id="html_11700faecbbd41c8a17bfc6ae700de2a" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8897911832946636, black: 0.04524361948955916, asian: 0.008120649651972157, native american 0.0, zip code: 01344, median income 53875</div>`)[0];
+            popup_50723ad3572f4636bb16fa07e51e7fe5.setContent(html_11700faecbbd41c8a17bfc6ae700de2a);
+        
+
+        marker_647ae0d48c364a09b76013534c4d0b09.bindPopup(popup_50723ad3572f4636bb16fa07e51e7fe5)
+        ;
+
+        
+    
+    
+            var marker_c2ea13835b19454d9c11399b4f700441 = L.marker(
+                [42.285805, -71.070571],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_b79a9e01bf794a2792caee29618d0ee9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c2ea13835b19454d9c11399b4f700441.setIcon(icon_b79a9e01bf794a2792caee29618d0ee9);
+        
+    
+        var popup_db3f2a64c9f64eaab363e0ba6cd15667 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab50d0a922f343c5905cd83082feef94 = $(`<div id="html_ab50d0a922f343c5905cd83082feef94" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.16, black: 0.4848, asian: 0.1424, native american 0.0336, zip code: 02124, median income NaN</div>`)[0];
+            popup_db3f2a64c9f64eaab363e0ba6cd15667.setContent(html_ab50d0a922f343c5905cd83082feef94);
+        
+
+        marker_c2ea13835b19454d9c11399b4f700441.bindPopup(popup_db3f2a64c9f64eaab363e0ba6cd15667)
+        ;
+
+        
+    
+    
+            var marker_5730226fed374d74b3c3f637a3222877 = L.marker(
+                [42.306267, -71.085897],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_23efcfc747d74cc99ff620523baf49b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5730226fed374d74b3c3f637a3222877.setIcon(icon_23efcfc747d74cc99ff620523baf49b9);
+        
+    
+        var popup_b24a6a373cad42c999013c81ab826600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ec79694c4f6409588ad34de4a9d49bb = $(`<div id="html_1ec79694c4f6409588ad34de4a9d49bb" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.10497981157469717, black: 0.5531628532974427, asian: 0.0, native american 0.0, zip code: 02121, median income 16371</div>`)[0];
+            popup_b24a6a373cad42c999013c81ab826600.setContent(html_1ec79694c4f6409588ad34de4a9d49bb);
+        
+
+        marker_5730226fed374d74b3c3f637a3222877.bindPopup(popup_b24a6a373cad42c999013c81ab826600)
+        ;
+
+        
+    
+    
+            var marker_103d64e9e60246d09e121f3ea4279663 = L.marker(
+                [42.211656, -72.642448],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_5b179494f77942b7ada82f427eedd497 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_103d64e9e60246d09e121f3ea4279663.setIcon(icon_5b179494f77942b7ada82f427eedd497);
+        
+    
+        var popup_e9d0025cccf4406c99097eaa23a5d395 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d365097819b4d3ab918e87b5f91ff71 = $(`<div id="html_8d365097819b4d3ab918e87b5f91ff71" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8826530612244898, black: 0.0, asian: 0.0, native american 0.0, zip code: 01040, median income 16000</div>`)[0];
+            popup_e9d0025cccf4406c99097eaa23a5d395.setContent(html_8d365097819b4d3ab918e87b5f91ff71);
+        
+
+        marker_103d64e9e60246d09e121f3ea4279663.bindPopup(popup_e9d0025cccf4406c99097eaa23a5d395)
+        ;
+
+        
+    
+    
+            var marker_ada900317109446eae7362e5c94ce0fc = L.marker(
+                [42.186893, -73.223105],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_05f21fff6c314387a632d3919e6e0a16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ada900317109446eae7362e5c94ce0fc.setIcon(icon_05f21fff6c314387a632d3919e6e0a16);
+        
+    
+        var popup_cca82f3abe054d9fb702b6b7dbfbab1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d63f69870fd74379ab43e7fc78612851 = $(`<div id="html_d63f69870fd74379ab43e7fc78612851" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.9620253164556962, black: 0.004219409282700422, asian: 0.006329113924050633, native american 0.0, zip code: 01245, median income 97500</div>`)[0];
+            popup_cca82f3abe054d9fb702b6b7dbfbab1b.setContent(html_d63f69870fd74379ab43e7fc78612851);
+        
+
+        marker_ada900317109446eae7362e5c94ce0fc.bindPopup(popup_cca82f3abe054d9fb702b6b7dbfbab1b)
+        ;
+
+        
+    
+    
+            var marker_9956dff3eed5492193dcc43e0a186c01 = L.marker(
+                [41.692705, -71.129726],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_7bcba75a08ef4c8fa58017142c83f228 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9956dff3eed5492193dcc43e0a186c01.setIcon(icon_7bcba75a08ef4c8fa58017142c83f228);
+        
+    
+        var popup_0367772eaff44f7db7d48b87415f950f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cc051b2172f4142a402d3def42170fd = $(`<div id="html_1cc051b2172f4142a402d3def42170fd" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.46494992846924177, black: 0.2675250357653791, asian: 0.0, native american 0.0, zip code: 02723, median income 48203</div>`)[0];
+            popup_0367772eaff44f7db7d48b87415f950f.setContent(html_1cc051b2172f4142a402d3def42170fd);
+        
+
+        marker_9956dff3eed5492193dcc43e0a186c01.bindPopup(popup_0367772eaff44f7db7d48b87415f950f)
+        ;
+
+        
+    
+    
+            var marker_83f32b000d94488e8844632bbcfc207b = L.marker(
+                [42.468898, -72.484579],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_da9f62ba56204c0fb8bcc319f33962ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83f32b000d94488e8844632bbcfc207b.setIcon(icon_da9f62ba56204c0fb8bcc319f33962ef);
+        
+    
+        var popup_92686782ceb24acc9b920fd0eb511f60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d1a701c2b3d4f4a8c12b215d9519dad = $(`<div id="html_4d1a701c2b3d4f4a8c12b215d9519dad" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.9207135777998018, black: 0.0, asian: 0.002973240832507433, native american 0.006937561942517344, zip code: 01054, median income 66063</div>`)[0];
+            popup_92686782ceb24acc9b920fd0eb511f60.setContent(html_4d1a701c2b3d4f4a8c12b215d9519dad);
+        
+
+        marker_83f32b000d94488e8844632bbcfc207b.bindPopup(popup_92686782ceb24acc9b920fd0eb511f60)
+        ;
+
+        
+    
+    
+            var marker_76e78a3037cb42039117df51b2b0e6bc = L.marker(
+                [42.289683, -71.787793],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_c1fe034b2cea44f98aff9a8cb2d1380a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_76e78a3037cb42039117df51b2b0e6bc.setIcon(icon_c1fe034b2cea44f98aff9a8cb2d1380a);
+        
+    
+        var popup_c2e5c3b27b4d457e9cf403c57570896c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc01b426065645d196af9199926faa5a = $(`<div id="html_bc01b426065645d196af9199926faa5a" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8242280285035629, black: 0.11401425178147269, asian: 0.03800475059382423, native american 0.0, zip code: 01605, median income 52885</div>`)[0];
+            popup_c2e5c3b27b4d457e9cf403c57570896c.setContent(html_bc01b426065645d196af9199926faa5a);
+        
+
+        marker_76e78a3037cb42039117df51b2b0e6bc.bindPopup(popup_c2e5c3b27b4d457e9cf403c57570896c)
+        ;
+
+        
+    
+    
+            var marker_937d427c29a7469cb7c3fcd7f863b940 = L.marker(
+                [42.211656, -72.642448],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_8048ed5708b14d299e4bbf652a84ee6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_937d427c29a7469cb7c3fcd7f863b940.setIcon(icon_8048ed5708b14d299e4bbf652a84ee6c);
+        
+    
+        var popup_b42ae1aadbd14806b322034f1085a8e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_341a43c3643548c9af8d3f65012eafff = $(`<div id="html_341a43c3643548c9af8d3f65012eafff" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.9444444444444444, black: 0.05555555555555555, asian: 0.0, native american 0.0, zip code: 01040, median income 53125</div>`)[0];
+            popup_b42ae1aadbd14806b322034f1085a8e3.setContent(html_341a43c3643548c9af8d3f65012eafff);
+        
+
+        marker_937d427c29a7469cb7c3fcd7f863b940.bindPopup(popup_b42ae1aadbd14806b322034f1085a8e3)
+        ;
+
+        
+    
+    
+            var marker_9096f672b17f4f0a850137a25ef84d2a = L.marker(
+                [42.134009, -72.565378],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_2482ba0876a1451280d738552f50922c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9096f672b17f4f0a850137a25ef84d2a.setIcon(icon_2482ba0876a1451280d738552f50922c);
+        
+    
+        var popup_c3cf11af7ac245df852d5d66fd98cc31 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f654d6a9f5d480ab8dbe0cdba5ac141 = $(`<div id="html_2f654d6a9f5d480ab8dbe0cdba5ac141" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7049659201557936, black: 0.0311587147030185, asian: 0.0, native american 0.0, zip code: 01104, median income NaN</div>`)[0];
+            popup_c3cf11af7ac245df852d5d66fd98cc31.setContent(html_2f654d6a9f5d480ab8dbe0cdba5ac141);
+        
+
+        marker_9096f672b17f4f0a850137a25ef84d2a.bindPopup(popup_c3cf11af7ac245df852d5d66fd98cc31)
+        ;
+
+        
+    
+    
+            var marker_13f855a989cc45439a6717c3fa6decbf = L.marker(
+                [42.33209, -71.096545],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_b4eedee990e7467db2d21f5875fd655a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_13f855a989cc45439a6717c3fa6decbf.setIcon(icon_b4eedee990e7467db2d21f5875fd655a);
+        
+    
+        var popup_3a52114eb135448a866a835e4c9f9227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_577447678e744e61bf8756c04f7bc5ec = $(`<div id="html_577447678e744e61bf8756c04f7bc5ec" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5341789992952783, black: 0.21000704721634955, asian: 0.061663143058491895, native american 0.0, zip code: 02120, median income 11484</div>`)[0];
+            popup_3a52114eb135448a866a835e4c9f9227.setContent(html_577447678e744e61bf8756c04f7bc5ec);
+        
+
+        marker_13f855a989cc45439a6717c3fa6decbf.bindPopup(popup_3a52114eb135448a866a835e4c9f9227)
+        ;
+
+        
+    
+    
+            var marker_538394ecd88f490c8688520fc19fbc1b = L.marker(
+                [42.119674, -72.549726],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_feb7ab54f74e48749fa8da3bdac25f4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_538394ecd88f490c8688520fc19fbc1b.setIcon(icon_feb7ab54f74e48749fa8da3bdac25f4f);
+        
+    
+        var popup_4759ef6127004ae18187a7196d91fb1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd779166696e4079adeeff7539e408a8 = $(`<div id="html_fd779166696e4079adeeff7539e408a8" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7488938053097345, black: 0.1913716814159292, asian: 0.00663716814159292, native american 0.0, zip code: 01109, median income 29659</div>`)[0];
+            popup_4759ef6127004ae18187a7196d91fb1e.setContent(html_fd779166696e4079adeeff7539e408a8);
+        
+
+        marker_538394ecd88f490c8688520fc19fbc1b.bindPopup(popup_4759ef6127004ae18187a7196d91fb1e)
+        ;
+
+        
+    
+    
+            var marker_00dbe03877fc452b81bc671b7735b79b = L.marker(
+                [42.099958, -72.580765],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_62d5721036374d8bb9bb0e61b99a3020 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00dbe03877fc452b81bc671b7735b79b.setIcon(icon_62d5721036374d8bb9bb0e61b99a3020);
+        
+    
+        var popup_f0057dff06594ae4b5b0383478c3da8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9245d3b4cbb401494cbb22ed49c0246 = $(`<div id="html_d9245d3b4cbb401494cbb22ed49c0246" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5794504181600956, black: 0.24014336917562723, asian: 0.0, native american 0.0, zip code: 01105, median income 20917</div>`)[0];
+            popup_f0057dff06594ae4b5b0383478c3da8c.setContent(html_d9245d3b4cbb401494cbb22ed49c0246);
+        
+
+        marker_00dbe03877fc452b81bc671b7735b79b.bindPopup(popup_f0057dff06594ae4b5b0383478c3da8c)
+        ;
+
+        
+    
+    
+            var marker_d9302f26db974d0bbbc54dcb269ee402 = L.marker(
+                [42.285114, -71.829987],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_7062e29244f5441cb8e57525c19fc6db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d9302f26db974d0bbbc54dcb269ee402.setIcon(icon_7062e29244f5441cb8e57525c19fc6db);
+        
+    
+        var popup_e5f8418d58264394bfde7397d078fc24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_989f35b6cf8542b8bb159ed594a70d1b = $(`<div id="html_989f35b6cf8542b8bb159ed594a70d1b" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6948853615520282, black: 0.07495590828924162, asian: 0.20105820105820105, native american 0.0, zip code: 01609, median income 25772</div>`)[0];
+            popup_e5f8418d58264394bfde7397d078fc24.setContent(html_989f35b6cf8542b8bb159ed594a70d1b);
+        
+
+        marker_d9302f26db974d0bbbc54dcb269ee402.bindPopup(popup_e5f8418d58264394bfde7397d078fc24)
+        ;
+
+        
+    
+    
+            var marker_2cbdcc9294e54408875d868435be6dec = L.marker(
+                [42.337105, -71.105696],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_b466cc7a3be04db2ba8ee757a6bc24cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2cbdcc9294e54408875d868435be6dec.setIcon(icon_b466cc7a3be04db2ba8ee757a6bc24cd);
+        
+    
+        var popup_fcfdea502de3448d8ff554f280388c94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_037de270e59f48f19cdc8e7533b92f8d = $(`<div id="html_037de270e59f48f19cdc8e7533b92f8d" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.753495217071376, black: 0.05739514348785872, asian: 0.152317880794702, native american 0.0, zip code: 02115, median income 16250</div>`)[0];
+            popup_fcfdea502de3448d8ff554f280388c94.setContent(html_037de270e59f48f19cdc8e7533b92f8d);
+        
+
+        marker_2cbdcc9294e54408875d868435be6dec.bindPopup(popup_fcfdea502de3448d8ff554f280388c94)
+        ;
+
+        
+    
+    
+            var marker_25a28ded9e60428e9fa850ff433d4c74 = L.marker(
+                [42.324029, -71.085017],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_109c965f5edf4ca7b01d2199b641ff1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_25a28ded9e60428e9fa850ff433d4c74.setIcon(icon_109c965f5edf4ca7b01d2199b641ff1b);
+        
+    
+        var popup_cd057a20342b4ba7a50f868277ee68c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b8eeec7b7484191bc5204bd70bc980c = $(`<div id="html_9b8eeec7b7484191bc5204bd70bc980c" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5137704918032787, black: 0.15377049180327867, asian: 0.26721311475409837, native american 0.014754098360655738, zip code: 02119, median income 27241</div>`)[0];
+            popup_cd057a20342b4ba7a50f868277ee68c3.setContent(html_9b8eeec7b7484191bc5204bd70bc980c);
+        
+
+        marker_25a28ded9e60428e9fa850ff433d4c74.bindPopup(popup_cd057a20342b4ba7a50f868277ee68c3)
+        ;
+
+        
+    
+    
+            var marker_e955d77e8f584968a88833caaf35222b = L.marker(
+                [42.211656, -72.642448],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_9e4caf48625946b8900093ba0709f63d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e955d77e8f584968a88833caaf35222b.setIcon(icon_9e4caf48625946b8900093ba0709f63d);
+        
+    
+        var popup_cdb7428b42f74ceaa416930572d95cd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1c3ab78fb304c65bd96e133a394bcbf = $(`<div id="html_e1c3ab78fb304c65bd96e133a394bcbf" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7460148777895855, black: 0.14452709883103082, asian: 0.0, native american 0.0, zip code: 01040, median income 24193</div>`)[0];
+            popup_cdb7428b42f74ceaa416930572d95cd2.setContent(html_e1c3ab78fb304c65bd96e133a394bcbf);
+        
+
+        marker_e955d77e8f584968a88833caaf35222b.bindPopup(popup_cdb7428b42f74ceaa416930572d95cd2)
+        ;
+
+        
+    
+    
+            var marker_f796a8a967144faa9af25b42b89659c9 = L.marker(
+                [42.347635, -71.103082],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_f17aee425f1147e3a022254eb45ab948 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f796a8a967144faa9af25b42b89659c9.setIcon(icon_f17aee425f1147e3a022254eb45ab948);
+        
+    
+        var popup_7738d9b0ed20490590b5cf392d9c85d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2912c9ef01a24906a883264fbfa91280 = $(`<div id="html_2912c9ef01a24906a883264fbfa91280" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7344192634560907, black: 0.026912181303116147, asian: 0.17138810198300283, native american 0.019121813031161474, zip code: 02215, median income 34522</div>`)[0];
+            popup_7738d9b0ed20490590b5cf392d9c85d4.setContent(html_2912c9ef01a24906a883264fbfa91280);
+        
+
+        marker_f796a8a967144faa9af25b42b89659c9.bindPopup(popup_7738d9b0ed20490590b5cf392d9c85d4)
+        ;
+
+        
+    
+    
+            var marker_5d8e3cd6bdac4614a7fe56679bbda78e = L.marker(
+                [42.379637, -71.135152],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_304de0d1980a4b9294544dfbe39a769d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d8e3cd6bdac4614a7fe56679bbda78e.setIcon(icon_304de0d1980a4b9294544dfbe39a769d);
+        
+    
+        var popup_625bd89b90b74e89955eec8508f43dbb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cde44d5d4c5b4a8095abc1cd36b20166 = $(`<div id="html_cde44d5d4c5b4a8095abc1cd36b20166" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6602994321115127, black: 0.041817243159525036, asian: 0.20392359318533815, native american 0.008776458440887971, zip code: 02138, median income 55461</div>`)[0];
+            popup_625bd89b90b74e89955eec8508f43dbb.setContent(html_cde44d5d4c5b4a8095abc1cd36b20166);
+        
+
+        marker_5d8e3cd6bdac4614a7fe56679bbda78e.bindPopup(popup_625bd89b90b74e89955eec8508f43dbb)
+        ;
+
+        
+    
+    
+            var marker_c605fcf8fd1e480b828bf8a900ec687b = L.marker(
+                [42.396824, -71.031348],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_bb6c470496ba425d8a39d95e8afdc643 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c605fcf8fd1e480b828bf8a900ec687b.setIcon(icon_bb6c470496ba425d8a39d95e8afdc643);
+        
+    
+        var popup_67746ff3aa9849008e553c1eecd44421 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31dfe0e323454fa7ac1d7ee142577b7a = $(`<div id="html_31dfe0e323454fa7ac1d7ee142577b7a" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.1608832807570978, black: 0.0, asian: 0.09253417455310199, native american 0.0, zip code: 02150, median income 71081</div>`)[0];
+            popup_67746ff3aa9849008e553c1eecd44421.setContent(html_31dfe0e323454fa7ac1d7ee142577b7a);
+        
+
+        marker_c605fcf8fd1e480b828bf8a900ec687b.bindPopup(popup_67746ff3aa9849008e553c1eecd44421)
+        ;
+
+        
+    
+    
+            var marker_3c14bab0edf9416086c43bc79e73e6a1 = L.marker(
+                [42.649481, -71.348229],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_8470acca976740c0bd44d7d157994053 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c14bab0edf9416086c43bc79e73e6a1.setIcon(icon_8470acca976740c0bd44d7d157994053);
+        
+    
+        var popup_c47a3151efa54b3a86a4058b7dde20af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95c3a8800c134c059ffe3436345f15b9 = $(`<div id="html_95c3a8800c134c059ffe3436345f15b9" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6757602862254025, black: 0.0907871198568873, asian: 0.1650268336314848, native american 0.0, zip code: 01854, median income NaN</div>`)[0];
+            popup_c47a3151efa54b3a86a4058b7dde20af.setContent(html_95c3a8800c134c059ffe3436345f15b9);
+        
+
+        marker_3c14bab0edf9416086c43bc79e73e6a1.bindPopup(popup_c47a3151efa54b3a86a4058b7dde20af)
+        ;
+
+        
+    
+    
+            var marker_598835c435dc47c48c44fae614dbfef0 = L.marker(
+                [42.600633, -70.883303],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_287d582e67e641479539d9ed4ce434fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_598835c435dc47c48c44fae614dbfef0.setIcon(icon_287d582e67e641479539d9ed4ce434fb);
+        
+    
+        var popup_00da65d7e6354f1991482612735a4e91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f62226d09f64b3eaa3de957db2e1bca = $(`<div id="html_0f62226d09f64b3eaa3de957db2e1bca" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8432007400555042, black: 0.06521739130434782, asian: 0.061517113783533764, native american 0.0, zip code: 01984, median income 196786</div>`)[0];
+            popup_00da65d7e6354f1991482612735a4e91.setContent(html_0f62226d09f64b3eaa3de957db2e1bca);
+        
+
+        marker_598835c435dc47c48c44fae614dbfef0.bindPopup(popup_00da65d7e6354f1991482612735a4e91)
+        ;
+
+        
+    
+    
+            var marker_f819f9071bca4531b522ef0b48f56510 = L.marker(
+                [41.664711, -71.015699],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_b376b8065e7548d5becced446f8e0700 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f819f9071bca4531b522ef0b48f56510.setIcon(icon_b376b8065e7548d5becced446f8e0700);
+        
+    
+        var popup_8a107faffaf840f0952a64d62f424b98 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31d73724a47b4c0582ee1de3f40767c7 = $(`<div id="html_31d73724a47b4c0582ee1de3f40767c7" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7782779966235228, black: 0.11986494091164884, asian: 0.030763459013318326, native american 0.0, zip code: 02747, median income 102794</div>`)[0];
+            popup_8a107faffaf840f0952a64d62f424b98.setContent(html_31d73724a47b4c0582ee1de3f40767c7);
+        
+
+        marker_f819f9071bca4531b522ef0b48f56510.bindPopup(popup_8a107faffaf840f0952a64d62f424b98)
+        ;
+
+        
+    
+    
+            var marker_5a341614dc0040da80557062ebd276e7 = L.marker(
+                [41.972387, -70.978778],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_e184095367714ab6b9d1f2c137bd487f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a341614dc0040da80557062ebd276e7.setIcon(icon_e184095367714ab6b9d1f2c137bd487f);
+        
+    
+        var popup_6c1a18531e2b43e099a4662efb99848d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_566cc6b232284cb69163dc1c520397a5 = $(`<div id="html_566cc6b232284cb69163dc1c520397a5" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7532710280373832, black: 0.15046728971962617, asian: 0.016510903426791276, native american 0.0024922118380062306, zip code: 02324, median income 37788</div>`)[0];
+            popup_6c1a18531e2b43e099a4662efb99848d.setContent(html_566cc6b232284cb69163dc1c520397a5);
+        
+
+        marker_5a341614dc0040da80557062ebd276e7.bindPopup(popup_6c1a18531e2b43e099a4662efb99848d)
+        ;
+
+        
+    
+    
+            var marker_ed32cd878f664e97ad4d1d8e1bbb614c = L.marker(
+                [42.314344, -71.152759],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_ad2e321d269044cf911217ac9b9b187a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed32cd878f664e97ad4d1d8e1bbb614c.setIcon(icon_ad2e321d269044cf911217ac9b9b187a);
+        
+    
+        var popup_aa1aa0c2033d49028e627f32a5e56b3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3bd334232c2e45b5b2ab459acfb3ae00 = $(`<div id="html_3bd334232c2e45b5b2ab459acfb3ae00" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7675018422991894, black: 0.03352984524686809, asian: 0.131171702284451, native american 0.002579218865143699, zip code: 02467, median income 154091</div>`)[0];
+            popup_aa1aa0c2033d49028e627f32a5e56b3f.setContent(html_3bd334232c2e45b5b2ab459acfb3ae00);
+        
+
+        marker_ed32cd878f664e97ad4d1d8e1bbb614c.bindPopup(popup_aa1aa0c2033d49028e627f32a5e56b3f)
+        ;
+
+        
+    
+    
+            var marker_1ddf16b0b63b43e9ae993c0e5c9945c9 = L.marker(
+                [42.113655, -71.334163],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_f2d4feaecf45458b910d9c9cf8c048be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ddf16b0b63b43e9ae993c0e5c9945c9.setIcon(icon_f2d4feaecf45458b910d9c9cf8c048be);
+        
+    
+        var popup_71a6480746ac466ba4bd3c5f8d5a720e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca18ff42ac1b422cac4b54eebdb94682 = $(`<div id="html_ca18ff42ac1b422cac4b54eebdb94682" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5946811919256648, black: 0.2592117910925985, asian: 0.001281640499839795, native american 0.0028836911246395386, zip code: 02056, median income 131250</div>`)[0];
+            popup_71a6480746ac466ba4bd3c5f8d5a720e.setContent(html_ca18ff42ac1b422cac4b54eebdb94682);
+        
+
+        marker_1ddf16b0b63b43e9ae993c0e5c9945c9.bindPopup(popup_71a6480746ac466ba4bd3c5f8d5a720e)
+        ;
+
+        
+    
+    
+            var marker_76d22278f9604dd7aa652424561befb1 = L.marker(
+                [42.369542, -71.240513],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_5e46cdeae5654d3ab4ccc4f7888fbae2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_76d22278f9604dd7aa652424561befb1.setIcon(icon_5e46cdeae5654d3ab4ccc4f7888fbae2);
+        
+    
+        var popup_d5c469f364b244529619b39405041ef0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf06020eacf54d748dc52e9825a9da32 = $(`<div id="html_cf06020eacf54d748dc52e9825a9da32" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6862284820031299, black: 0.05242566510172144, asian: 0.20892018779342722, native american 0.0, zip code: 02453, median income 96406</div>`)[0];
+            popup_d5c469f364b244529619b39405041ef0.setContent(html_cf06020eacf54d748dc52e9825a9da32);
+        
+
+        marker_76d22278f9604dd7aa652424561befb1.bindPopup(popup_d5c469f364b244529619b39405041ef0)
+        ;
+
+        
+    
+    
+            var marker_ed85646944e64a5d83dfb5bb4b04bfde = L.marker(
+                [42.314344, -71.152759],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_e9cbd74e423c44bc93a13950c6afa107 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ed85646944e64a5d83dfb5bb4b04bfde.setIcon(icon_e9cbd74e423c44bc93a13950c6afa107);
+        
+    
+        var popup_1ee7f337df674265831264ed0aadc260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37279a7be8034fd882c1ea0f62590d07 = $(`<div id="html_37279a7be8034fd882c1ea0f62590d07" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7361359570661896, black: 0.03175313059033989, asian: 0.139087656529517, native american 0.0, zip code: 02467, median income 212222</div>`)[0];
+            popup_1ee7f337df674265831264ed0aadc260.setContent(html_37279a7be8034fd882c1ea0f62590d07);
+        
+
+        marker_ed85646944e64a5d83dfb5bb4b04bfde.bindPopup(popup_1ee7f337df674265831264ed0aadc260)
+        ;
+
+        
+    
+    
+            var marker_43b00fc3a01342b0ab7ac97b902b89a8 = L.marker(
+                [42.337105, -71.105696],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_9ae405c622304e60ae781589405c59bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_43b00fc3a01342b0ab7ac97b902b89a8.setIcon(icon_9ae405c622304e60ae781589405c59bb);
+        
+    
+        var popup_1a30e27826434cc4b0e5b962ac871cb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_423e023ce0e84028aee3c5a3f2c5dfd7 = $(`<div id="html_423e023ce0e84028aee3c5a3f2c5dfd7" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.645083932853717, black: 0.047362110311750596, asian: 0.2697841726618705, native american 0.0, zip code: 02115, median income 38125</div>`)[0];
+            popup_1a30e27826434cc4b0e5b962ac871cb7.setContent(html_423e023ce0e84028aee3c5a3f2c5dfd7);
+        
+
+        marker_43b00fc3a01342b0ab7ac97b902b89a8.bindPopup(popup_1a30e27826434cc4b0e5b962ac871cb7)
+        ;
+
+        
+    
+    
+            var marker_9f113239129a4f84bffc59222c77512b = L.marker(
+                [42.366168, -71.12285],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_c76f3dd004684990843e25b7fad92e0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f113239129a4f84bffc59222c77512b.setIcon(icon_c76f3dd004684990843e25b7fad92e0b);
+        
+    
+        var popup_e9f7fe766d844129a8cd47bac31a3dd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8479313bf433453791c4c04f7dbf8b11 = $(`<div id="html_8479313bf433453791c4c04f7dbf8b11" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6282682834406972, black: 0.05721864342553998, asian: 0.25426297840090945, native american 0.002652519893899204, zip code: 02163, median income 54821</div>`)[0];
+            popup_e9f7fe766d844129a8cd47bac31a3dd9.setContent(html_8479313bf433453791c4c04f7dbf8b11);
+        
+
+        marker_9f113239129a4f84bffc59222c77512b.bindPopup(popup_e9f7fe766d844129a8cd47bac31a3dd9)
+        ;
+
+        
+    
+    
+            var marker_53d1da123a754ce8ad11e3da7c20d0c8 = L.marker(
+                [42.337105, -71.105696],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_0596f7bf5478424d9010fb08acdcce40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_53d1da123a754ce8ad11e3da7c20d0c8.setIcon(icon_0596f7bf5478424d9010fb08acdcce40);
+        
+    
+        var popup_bedfc58e912944b18cee19f67e3326d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f41d509ebadb44e7bb233284657a43ed = $(`<div id="html_f41d509ebadb44e7bb233284657a43ed" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7442384769539078, black: 0.05536072144288577, asian: 0.13677354709418837, native american 0.0, zip code: 02115, median income 75156</div>`)[0];
+            popup_bedfc58e912944b18cee19f67e3326d2.setContent(html_f41d509ebadb44e7bb233284657a43ed);
+        
+
+        marker_53d1da123a754ce8ad11e3da7c20d0c8.bindPopup(popup_bedfc58e912944b18cee19f67e3326d2)
+        ;
+
+        
+    
+    
+            var marker_3b9484c0dc5d416a81e88356dcdcd98e = L.marker(
+                [42.293103, -71.298537],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_95ea66cf471b492c909468101f2cb62f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b9484c0dc5d416a81e88356dcdcd98e.setIcon(icon_95ea66cf471b492c909468101f2cb62f);
+        
+    
+        var popup_b3da50afdd1b4bd5b942ff7c866d0ab3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b021799c33c74da1af7c12289d19806d = $(`<div id="html_b021799c33c74da1af7c12289d19806d" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.640251572327044, black: 0.0729559748427673, asian: 0.21761006289308177, native american 0.0, zip code: 02482, median income 140074</div>`)[0];
+            popup_b3da50afdd1b4bd5b942ff7c866d0ab3.setContent(html_b021799c33c74da1af7c12289d19806d);
+        
+
+        marker_3b9484c0dc5d416a81e88356dcdcd98e.bindPopup(popup_b3da50afdd1b4bd5b942ff7c866d0ab3)
+        ;
+
+        
+    
+    
+            var marker_f9a244a3d5e14120965b37ec292f28b8 = L.marker(
+                [42.671617, -73.246981],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_33acae42940b41bca314c5dfbf21dc69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f9a244a3d5e14120965b37ec292f28b8.setIcon(icon_33acae42940b41bca314c5dfbf21dc69);
+        
+    
+        var popup_0948e1913902464bae76cc3ed68a8500 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f41dd80b444493ab2bb3cce2e4d9376 = $(`<div id="html_8f41dd80b444493ab2bb3cce2e4d9376" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.714160070360598, black: 0.1011433597185576, asian: 0.13720316622691292, native american 0.008795074758135445, zip code: 01267, median income 55167</div>`)[0];
+            popup_0948e1913902464bae76cc3ed68a8500.setContent(html_8f41dd80b444493ab2bb3cce2e4d9376);
+        
+
+        marker_f9a244a3d5e14120965b37ec292f28b8.bindPopup(popup_0948e1913902464bae76cc3ed68a8500)
+        ;
+
+        
+    
+    
+            var marker_f896dcfa1a4b441c983aeb703dcd8080 = L.marker(
+                [42.501908, -71.568201],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_4edc7c439f584aa3b88020aaba973d23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f896dcfa1a4b441c983aeb703dcd8080.setIcon(icon_4edc7c439f584aa3b88020aaba973d23);
+        
+    
+        var popup_4b6abc214e1e4857a6b808544a8945ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_daf6ad9dffc74a3ab52ea21db2bc1d59 = $(`<div id="html_daf6ad9dffc74a3ab52ea21db2bc1d59" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5832266325224071, black: 0.235595390524968, asian: 0.07682458386683738, native american 0.013444302176696543, zip code: 01451, median income 134417</div>`)[0];
+            popup_4b6abc214e1e4857a6b808544a8945ff.setContent(html_daf6ad9dffc74a3ab52ea21db2bc1d59);
+        
+
+        marker_f896dcfa1a4b441c983aeb703dcd8080.bindPopup(popup_4b6abc214e1e4857a6b808544a8945ff)
+        ;
+
+        
+    
+    
+            var marker_6145e3edc2fd4122a640f14f5b15a623 = L.marker(
+                [42.379637, -71.135152],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_b926a9fcb5b345d69a63ea21a20fdea2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6145e3edc2fd4122a640f14f5b15a623.setIcon(icon_b926a9fcb5b345d69a63ea21a20fdea2);
+        
+    
+        var popup_079ff5b220fe4d0997c22f72d7a0e9a9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cde4f65963e548d294a996f6cd478625 = $(`<div id="html_cde4f65963e548d294a996f6cd478625" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.5921605226318245, black: 0.08959402706486234, asian: 0.2543163789080728, native american 0.01026598226784881, zip code: 02138, median income NaN</div>`)[0];
+            popup_079ff5b220fe4d0997c22f72d7a0e9a9.setContent(html_cde4f65963e548d294a996f6cd478625);
+        
+
+        marker_6145e3edc2fd4122a640f14f5b15a623.bindPopup(popup_079ff5b220fe4d0997c22f72d7a0e9a9)
+        ;
+
+        
+    
+    
+            var marker_48ef8e7f70024995809f2eb04de78a7b = L.marker(
+                [42.153503, -72.771602],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_8558d557e15945a3b046d8edf2569bfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48ef8e7f70024995809f2eb04de78a7b.setIcon(icon_8558d557e15945a3b046d8edf2569bfb);
+        
+    
+        var popup_2897ca8df4c746ea92ace3b4ad4ebcd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19f45a2763294971b34ef25cb9cbf00a = $(`<div id="html_19f45a2763294971b34ef25cb9cbf00a" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.9253837915030346, black: 0.05640842556229918, asian: 0.01035344519814352, native american 0.0, zip code: 01085, median income 195625</div>`)[0];
+            popup_2897ca8df4c746ea92ace3b4ad4ebcd3.setContent(html_19f45a2763294971b34ef25cb9cbf00a);
+        
+
+        marker_48ef8e7f70024995809f2eb04de78a7b.bindPopup(popup_2897ca8df4c746ea92ace3b4ad4ebcd3)
+        ;
+
+        
+    
+    
+            var marker_92c461bec6f240149b774fdda1dc3c55 = L.marker(
+                [42.364061, -72.458739],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_fb96d0ec18e74c698e5c1d205677c3f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_92c461bec6f240149b774fdda1dc3c55.setIcon(icon_fb96d0ec18e74c698e5c1d205677c3f1);
+        
+    
+        var popup_51c0949d1c474af69ae43daa886a1e8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2ec09315d9247c8969291409c8c77eb = $(`<div id="html_a2ec09315d9247c8969291409c8c77eb" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7337807606263982, black: 0.08053691275167785, asian: 0.1174496644295302, native american 0.005592841163310962, zip code: 01002, median income NaN</div>`)[0];
+            popup_51c0949d1c474af69ae43daa886a1e8f.setContent(html_a2ec09315d9247c8969291409c8c77eb);
+        
+
+        marker_92c461bec6f240149b774fdda1dc3c55.bindPopup(popup_51c0949d1c474af69ae43daa886a1e8f)
+        ;
+
+        
+    
+    
+            var marker_eb0910bb7b4b442297c00c9ca23f7f6c = L.marker(
+                [42.392721, -71.213532],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_a0148cf79148465cb2d11c9731fd0705 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb0910bb7b4b442297c00c9ca23f7f6c.setIcon(icon_a0148cf79148465cb2d11c9731fd0705);
+        
+    
+        var popup_ef9ea91b4fd6477b9fc5de2a6b061f67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ee32caa5aac46ad97e47272bc2e7732 = $(`<div id="html_4ee32caa5aac46ad97e47272bc2e7732" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.722755879430275, black: 0.05829744948658496, asian: 0.1450811526995694, native american 0.0009937065253395165, zip code: 02452, median income 111750</div>`)[0];
+            popup_ef9ea91b4fd6477b9fc5de2a6b061f67.setContent(html_4ee32caa5aac46ad97e47272bc2e7732);
+        
+
+        marker_eb0910bb7b4b442297c00c9ca23f7f6c.bindPopup(popup_ef9ea91b4fd6477b9fc5de2a6b061f67)
+        ;
+
+        
+    
+    
+            var marker_dcea5be55e77474889e08d01fdb59fc7 = L.marker(
+                [42.256208, -72.58103],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_0d1cb8ce3c214825a21ee063b3d98a5f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dcea5be55e77474889e08d01fdb59fc7.setIcon(icon_0d1cb8ce3c214825a21ee063b3d98a5f);
+        
+    
+        var popup_5161592fef3345d98921a67409e6ff4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcddbe6929ae4e1daa20dddfcac14e64 = $(`<div id="html_fcddbe6929ae4e1daa20dddfcac14e64" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6636021730045968, black: 0.05808608441287087, asian: 0.20894274968658588, native american 0.0, zip code: 01075, median income 137614</div>`)[0];
+            popup_5161592fef3345d98921a67409e6ff4a.setContent(html_fcddbe6929ae4e1daa20dddfcac14e64);
+        
+
+        marker_dcea5be55e77474889e08d01fdb59fc7.bindPopup(popup_5161592fef3345d98921a67409e6ff4a)
+        ;
+
+        
+    
+    
+            var marker_83f76cb558d34d809e3b9471a2483788 = L.marker(
+                [42.311927, -71.275531],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_1f6cc1de68e748ec84e855c120e1dd8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83f76cb558d34d809e3b9471a2483788.setIcon(icon_1f6cc1de68e748ec84e855c120e1dd8c);
+        
+    
+        var popup_4e466119c88c4eadb9003f27d82b2673 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e392028419624654acd8fb7914c8aa80 = $(`<div id="html_e392028419624654acd8fb7914c8aa80" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.6859696851923824, black: 0.06607073455110765, asian: 0.20676253400699574, native american 0.0, zip code: 02481, median income 230556</div>`)[0];
+            popup_4e466119c88c4eadb9003f27d82b2673.setContent(html_e392028419624654acd8fb7914c8aa80);
+        
+
+        marker_83f76cb558d34d809e3b9471a2483788.bindPopup(popup_4e466119c88c4eadb9003f27d82b2673)
+        ;
+
+        
+    
+    
+            var marker_6817246af5474de7aff01e07d91cc044 = L.marker(
+                [42.347635, -71.103082],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_78aef7492c4b4f0c9401abaaf8b6ca45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6817246af5474de7aff01e07d91cc044.setIcon(icon_78aef7492c4b4f0c9401abaaf8b6ca45);
+        
+    
+        var popup_6d480347dc4149cf8a2d439f15d38bab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1ddd52348dd4d1da23bd89c12c33f86 = $(`<div id="html_a1ddd52348dd4d1da23bd89c12c33f86" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.51338199513382, black: 0.042173560421735604, asian: 0.3746958637469586, native american 0.0008110300081103001, zip code: 02215, median income NaN</div>`)[0];
+            popup_6d480347dc4149cf8a2d439f15d38bab.setContent(html_a1ddd52348dd4d1da23bd89c12c33f86);
+        
+
+        marker_6817246af5474de7aff01e07d91cc044.bindPopup(popup_6d480347dc4149cf8a2d439f15d38bab)
+        ;
+
+        
+    
+    
+            var marker_730096582fe84fe0a750abef9f29718e = L.marker(
+                [42.389941, -72.524108],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_e0ad906706de44ba846cd6978ace6f0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_730096582fe84fe0a750abef9f29718e.setIcon(icon_e0ad906706de44ba846cd6978ace6f0f);
+        
+    
+        var popup_4f8b093514e5419abec36f3c655cdb4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b20c3e1f8ab41718496cbadd6069e12 = $(`<div id="html_3b20c3e1f8ab41718496cbadd6069e12" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.792984112002517, black: 0.03649520213937392, asian: 0.12285669340884064, native american 0.006134969325153374, zip code: 01003, median income 2499</div>`)[0];
+            popup_4f8b093514e5419abec36f3c655cdb4a.setContent(html_3b20c3e1f8ab41718496cbadd6069e12);
+        
+
+        marker_730096582fe84fe0a750abef9f29718e.bindPopup(popup_4f8b093514e5419abec36f3c655cdb4a)
+        ;
+
+        
+    
+    
+            var marker_783197007bce4df18ae0deda592e1e53 = L.marker(
+                [42.570665, -70.867583],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_7c68a6f8f2e847189615d1a2f5000eaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_783197007bce4df18ae0deda592e1e53.setIcon(icon_7c68a6f8f2e847189615d1a2f5000eaf);
+        
+    
+        var popup_8f5317b08ca14e358f809c8ec5af6893 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a997f39a08b54b4aa7ad0f6e14c02a43 = $(`<div id="html_a997f39a08b54b4aa7ad0f6e14c02a43" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8791653690439115, black: 0.06726876362503893, asian: 0.02148863282466521, native american 0.0, zip code: 01915, median income 250001</div>`)[0];
+            popup_8f5317b08ca14e358f809c8ec5af6893.setContent(html_a997f39a08b54b4aa7ad0f6e14c02a43);
+        
+
+        marker_783197007bce4df18ae0deda592e1e53.bindPopup(popup_8f5317b08ca14e358f809c8ec5af6893)
+        ;
+
+        
+    
+    
+            var marker_015ec47a73374d7183b2c89330de373f = L.marker(
+                [42.321488, -72.630588],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_ace0661b2c9c443680231044cd741e12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_015ec47a73374d7183b2c89330de373f.setIcon(icon_ace0661b2c9c443680231044cd741e12);
+        
+    
+        var popup_0ba259df5dfe4d40a60c8bb0889c5ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc153d39e08e48be81f498b5f6f3f0ef = $(`<div id="html_cc153d39e08e48be81f498b5f6f3f0ef" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7595198675496688, black: 0.033112582781456956, asian: 0.14155629139072848, native american 0.0008278145695364238, zip code: 01060, median income 69375</div>`)[0];
+            popup_0ba259df5dfe4d40a60c8bb0889c5ee3.setContent(html_cc153d39e08e48be81f498b5f6f3f0ef);
+        
+
+        marker_015ec47a73374d7183b2c89330de373f.bindPopup(popup_0ba259df5dfe4d40a60c8bb0889c5ee3)
+        ;
+
+        
+    
+    
+            var marker_a74dab41d47b4f9fa83e62a651c6a19b = L.marker(
+                [42.347635, -71.103082],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_aaa4a2f0316649d0ba610bb8f459865b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a74dab41d47b4f9fa83e62a651c6a19b.setIcon(icon_aaa4a2f0316649d0ba610bb8f459865b);
+        
+    
+        var popup_344c150583b540c386a22e07604f6c74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53c210c31e3d4228bc8a62c39bd4500b = $(`<div id="html_53c210c31e3d4228bc8a62c39bd4500b" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.7111984282907662, black: 0.03143418467583497, asian: 0.1558611656843484, native american 0.0, zip code: 02215, median income NaN</div>`)[0];
+            popup_344c150583b540c386a22e07604f6c74.setContent(html_53c210c31e3d4228bc8a62c39bd4500b);
+        
+
+        marker_a74dab41d47b4f9fa83e62a651c6a19b.bindPopup(popup_344c150583b540c386a22e07604f6c74)
+        ;
+
+        
+    
+    
+            var marker_6f8de4b38d5847cba6217516f1c7e5ca = L.marker(
+                [42.119674, -72.549726],
+                {}
+            ).addTo(map_7050bfa93c0e4af486fbfafd934c4051);
+        
+    
+            var icon_cd8212d5c66f41f7a8124c6dc52080c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f8de4b38d5847cba6217516f1c7e5ca.setIcon(icon_cd8212d5c66f41f7a8124c6dc52080c7);
+        
+    
+        var popup_0c8dd2f65ba64694b92f40656c0f292f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_464a5015685041ef9e619dce4609bc7d = $(`<div id="html_464a5015685041ef9e619dce4609bc7d" style="width: 100.0%; height: 100.0%;">Demographics: white: 0.8658420551855376, black: 0.09039010466222645, asian: 0.03472882968601332, native american 0.0, zip code: 01109, median income NaN</div>`)[0];
+            popup_0c8dd2f65ba64694b92f40656c0f292f.setContent(html_464a5015685041ef9e619dce4609bc7d);
+        
+
+        marker_6f8de4b38d5847cba6217516f1c7e5ca.bindPopup(popup_0c8dd2f65ba64694b92f40656c0f292f)
+        ;
+
+        
+    
+</script>
