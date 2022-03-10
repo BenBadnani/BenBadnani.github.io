@@ -63,5 +63,23 @@ h1.main_page {
 }
 
 
+.vcomm{
+    height: 40px;
+    width: auto;
+    padding-left: 25px; 
+}
 
+.myimage { 
+    float: right;
+    padding-left: 25px;
+    padding-right: 100px;
+    position: relative; 
+    top: -20px; 
+} 
 
+#indented{
+    position: relative; 
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-top: 5px; 
+}
