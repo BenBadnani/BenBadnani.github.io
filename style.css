@@ -42,8 +42,8 @@ h1.main_page {
 
 .bouncer_picture {
     transition: .5s ease;
-    padding-top: 10px; 
-    padding-bottom: 10px;
+    padding-top: 15px; 
+    padding-bottom: 15px;
     width: 130px;
     height: auto;
     vertical-align: middle;
@@ -96,3 +96,27 @@ h1.main_page {
     width: 15%;
     height: auto; 
   }
+
+.six_five_text:hover{
+    font-size: 15%;
+  }
+
+a.six_five_text:hover{
+    font-size: 150%;
+}
+  
+a.six_five_text {
+    transition: .5s ease;
+ }
+
+ .web3:hover{
+    font-size: 15%;
+  }
+
+a.web3:hover{
+    font-size: 125%;
+}
+  
+a.web3 {
+    transition: .5s ease;
+ }
