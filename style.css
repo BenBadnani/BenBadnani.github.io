@@ -41,11 +41,17 @@ h1.main_page {
 }
 
 .bouncer_picture {
-    border: black 1px;
-    height: 100px;
-    width: auto;
+    padding-top: 20px; 
+    padding-bottom: 10px;
+    width: 130px;
+    height: auto;
     vertical-align: middle;
   }
+
+.bouncer_picture img:hover {
+    opacity: .5;
+    border: blue solid 1px; 
+}
 
 .info_cell {
     width:100%;
@@ -83,3 +89,27 @@ h1.main_page {
     margin-right: 100px;
     margin-top: 5px; 
 }
+
+#idt{
+    position: relative; 
+    padding-left: 25px;
+}
+
+.container:hover .bouncer_picture {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    bottom: 31px; 
+    left: 5.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
